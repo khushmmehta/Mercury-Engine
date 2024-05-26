@@ -1,0 +1,391 @@
+# ninja log v5
+1758	16167	7382013416317478	third_party/CMakeFiles/vkbootstrap.dir/vkbootstrap/VkBootstrap.cpp.obj	fc4ac1ba0af3a968
+1842	18723	7382013441695346	third_party/fastgltf/CMakeFiles/fastgltf_simdjson.dir/deps/simdjson/simdjson.cpp.obj	9ae1b1d7a8ceab7c
+16176	19097	7382013440228997	third_party/vkbootstrap.lib	15d5c8feacaa7e17
+18724	20132	7382013454207038	third_party/fastgltf/fastgltf_simdjson.lib	ca5921a7ba00d4d1
+20133	32619	7382013580656878	third_party/fmt/CMakeFiles/fmt.dir/src/format.cc.obj	79e4ee9555f57ff0
+19098	33615	7382013591186136	third_party/fastgltf/CMakeFiles/fastgltf.dir/src/base64.cpp.obj	3350250b7bf40a55
+1854	33880	7382013593281492	third_party/fastgltf/CMakeFiles/fastgltf.dir/src/fastgltf.cpp.obj	c6040e5514d498
+33617	33998	7382013594608859	third_party/SDL/include/SDL2/SDL.h	a3e57e610e89252d
+33617	33998	7382013594608859	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL.h	a3e57e610e89252d
+33998	34285	7382013597567094	third_party/SDL/include/SDL2/SDL_assert.h	2d8d9996f712efbd
+33998	34285	7382013597567094	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_assert.h	2d8d9996f712efbd
+33880	34463	7382013598024881	third_party/fastgltf/fastgltf.lib	89c0f8187875ccd9
+34285	34530	7382013600125886	third_party/SDL/include/SDL2/SDL_atomic.h	bce2f0a48c121d3b
+34285	34530	7382013600125886	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_atomic.h	bce2f0a48c121d3b
+34463	34670	7382013601610923	third_party/SDL/include/SDL2/SDL_audio.h	f813b3394ea9d64c
+34463	34670	7382013601610923	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_audio.h	f813b3394ea9d64c
+34530	34697	7382013601965634	third_party/SDL/include/SDL2/SDL_bits.h	fd162672cc882bd1
+34530	34697	7382013601965634	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_bits.h	fd162672cc882bd1
+34671	35016	7382013603776820	third_party/SDL/include/SDL2/SDL_blendmode.h	dd189c86ca08422a
+34671	35016	7382013603776820	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_blendmode.h	dd189c86ca08422a
+34697	35082	7382013605450321	third_party/SDL/include/SDL2/SDL_clipboard.h	8da90c0a13ae5da1
+34697	35082	7382013605450321	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_clipboard.h	8da90c0a13ae5da1
+35016	35295	7382013607944207	third_party/SDL/include/SDL2/SDL_copying.h	e3b4e193b33a04d3
+35016	35295	7382013607944207	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_copying.h	e3b4e193b33a04d3
+35083	35374	7382013608850550	third_party/SDL/include/SDL2/SDL_cpuinfo.h	247b3a30812d70ec
+35083	35374	7382013608850550	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_cpuinfo.h	247b3a30812d70ec
+35295	35534	7382013610390826	third_party/SDL/include/SDL2/SDL_egl.h	c31eb09455ebc49a
+35295	35534	7382013610390826	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_egl.h	c31eb09455ebc49a
+35375	35552	7382013610656670	third_party/SDL/include/SDL2/SDL_endian.h	b4467d66abac5af4
+35375	35552	7382013610656670	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_endian.h	b4467d66abac5af4
+35534	35674	7382013611885826	third_party/SDL/include/SDL2/SDL_error.h	3253880d1ed99ffc
+35534	35674	7382013611885826	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_error.h	3253880d1ed99ffc
+35552	35784	7382013612198537	third_party/SDL/include/SDL2/SDL_events.h	47c0bcf1239ef724
+35552	35784	7382013612198537	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_events.h	47c0bcf1239ef724
+35674	35974	7382013614814180	third_party/SDL/include/SDL2/SDL_filesystem.h	aa4fe39ecf782a36
+35674	35974	7382013614814180	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_filesystem.h	aa4fe39ecf782a36
+35784	36024	7382013615258506	third_party/SDL/include/SDL2/SDL_gamecontroller.h	cef43fe3bb989db1
+35784	36024	7382013615258506	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_gamecontroller.h	cef43fe3bb989db1
+35975	36154	7382013616493421	third_party/SDL/include/SDL2/SDL_gesture.h	c7014fd768f963c1
+35975	36154	7382013616493421	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_gesture.h	c7014fd768f963c1
+36025	36221	7382013617228753	third_party/SDL/include/SDL2/SDL_guid.h	c7d37ac084ef73a
+36025	36221	7382013617228753	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_guid.h	c7d37ac084ef73a
+36154	36387	7382013618247204	third_party/SDL/include/SDL2/SDL_haptic.h	a95599dd30a36afc
+36154	36387	7382013618247204	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_haptic.h	a95599dd30a36afc
+36222	36452	7382013619504953	third_party/SDL/include/SDL2/SDL_hidapi.h	75ef8739e33352c5
+36222	36452	7382013619504953	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_hidapi.h	75ef8739e33352c5
+36388	36648	7382013621264021	third_party/SDL/include/SDL2/SDL_hints.h	9a9157cf9103169d
+36388	36648	7382013621264021	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_hints.h	9a9157cf9103169d
+36453	36715	7382013622209934	third_party/SDL/include/SDL2/SDL_joystick.h	afa10332108a6ee
+36453	36715	7382013622209934	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_joystick.h	afa10332108a6ee
+36649	36916	7382013623882561	third_party/SDL/include/SDL2/SDL_keyboard.h	3cf9b76bf7b6f4e9
+36649	36916	7382013623882561	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_keyboard.h	3cf9b76bf7b6f4e9
+36716	36933	7382013624427801	third_party/SDL/include/SDL2/SDL_keycode.h	3279ee96a0f335f
+36716	36933	7382013624427801	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_keycode.h	3279ee96a0f335f
+36916	37100	7382013625838515	third_party/SDL/include/SDL2/SDL_loadso.h	bc54b16deb5a6ee9
+36916	37100	7382013625838515	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_loadso.h	bc54b16deb5a6ee9
+36934	37120	7382013626305809	third_party/SDL/include/SDL2/SDL_locale.h	d1c2ecff3a1fd57f
+36934	37120	7382013626305809	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_locale.h	d1c2ecff3a1fd57f
+37100	37261	7382013627612843	third_party/SDL/include/SDL2/SDL_log.h	b6fc107d947619a2
+37100	37261	7382013627612843	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_log.h	b6fc107d947619a2
+37120	37278	7382013627853528	third_party/SDL/include/SDL2/SDL_main.h	140eb8c59bcfc5b
+37120	37278	7382013627853528	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_main.h	140eb8c59bcfc5b
+37279	37585	7382013629905878	third_party/SDL/include/SDL2/SDL_metal.h	c26a34377a60f76b
+37279	37585	7382013629905878	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_metal.h	c26a34377a60f76b
+37261	37605	7382013629917499	third_party/SDL/include/SDL2/SDL_messagebox.h	44e63abed00ce2bc
+37261	37605	7382013629917499	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_messagebox.h	44e63abed00ce2bc
+37586	37792	7382013632588284	third_party/SDL/include/SDL2/SDL_misc.h	3ba27451731a1b67
+37586	37792	7382013632588284	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_misc.h	3ba27451731a1b67
+37605	37844	7382013632750884	third_party/SDL/include/SDL2/SDL_mouse.h	d5ababb0b68257d4
+37605	37844	7382013632750884	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_mouse.h	d5ababb0b68257d4
+37793	38012	7382013635109640	third_party/SDL/include/SDL2/SDL_mutex.h	33aa79ef9d3e9ae5
+37793	38012	7382013635109640	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_mutex.h	33aa79ef9d3e9ae5
+37845	38029	7382013635285344	third_party/SDL/include/SDL2/SDL_name.h	24bb7595484d043f
+37845	38029	7382013635285344	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_name.h	24bb7595484d043f
+38013	38191	7382013636928395	third_party/SDL/include/SDL2/SDL_opengl.h	75311c0dcd9f7455
+38013	38191	7382013636928395	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengl.h	75311c0dcd9f7455
+38030	38239	7382013637538427	third_party/SDL/include/SDL2/SDL_opengl_glext.h	f428c2138289678f
+38030	38239	7382013637538427	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengl_glext.h	f428c2138289678f
+38192	38411	7382013638587182	third_party/SDL/include/SDL2/SDL_opengles.h	bd07b3e1c0673a8e
+38192	38411	7382013638587182	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles.h	bd07b3e1c0673a8e
+32620	38469	7382013639844318	third_party/fmt/CMakeFiles/fmt.dir/src/os.cc.obj	54aa6b0e5b2e0b38
+38239	38487	7382013639843164	third_party/SDL/include/SDL2/SDL_opengles2.h	5402165714736420
+38239	38487	7382013639843164	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2.h	5402165714736420
+38411	38640	7382013640768126	third_party/SDL/include/SDL2/SDL_opengles2_gl2.h	117c6772bdf9d63a
+38411	38640	7382013640768126	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_gl2.h	117c6772bdf9d63a
+38487	38792	7382013642971685	third_party/SDL/include/SDL2/SDL_opengles2_gl2ext.h	421a180e8716878e
+38487	38792	7382013642971685	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_gl2ext.h	421a180e8716878e
+38470	38877	7382013642801523	third_party/fmt/fmtd.lib	ad7e3c4fced2ecac
+38641	38930	7382013644245809	third_party/SDL/include/SDL2/SDL_opengles2_gl2platform.h	9c2e2748a9e48b5b
+38641	38930	7382013644245809	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_gl2platform.h	9c2e2748a9e48b5b
+38793	39007	7382013644963347	third_party/SDL/include/SDL2/SDL_opengles2_khrplatform.h	4a20f31fae136a1e
+38793	39007	7382013644963347	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_khrplatform.h	4a20f31fae136a1e
+38877	39066	7382013645440595	third_party/SDL/include/SDL2/SDL_pixels.h	2e805c4c892ad67f
+38877	39066	7382013645440595	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_pixels.h	2e805c4c892ad67f
+38930	39120	7382013646003216	third_party/SDL/include/SDL2/SDL_platform.h	6ce885e9daec254c
+38930	39120	7382013646003216	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_platform.h	6ce885e9daec254c
+39008	39192	7382013646812553	third_party/SDL/include/SDL2/SDL_power.h	220a353c54b6c054
+39008	39192	7382013646812553	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_power.h	220a353c54b6c054
+39067	39243	7382013647537665	third_party/SDL/include/SDL2/SDL_quit.h	ba4020f0d2006c7e
+39067	39243	7382013647537665	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_quit.h	ba4020f0d2006c7e
+39120	39335	7382013648073030	third_party/SDL/include/SDL2/SDL_rect.h	5d27b90538a7d2d
+39120	39335	7382013648073030	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_rect.h	5d27b90538a7d2d
+39192	39377	7382013648808083	third_party/SDL/include/SDL2/SDL_render.h	943cc76fcbb4586e
+39192	39377	7382013648808083	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_render.h	943cc76fcbb4586e
+39243	39440	7382013649084247	third_party/SDL/include/SDL2/SDL_rwops.h	c87f86743df8887
+39243	39440	7382013649084247	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_rwops.h	c87f86743df8887
+39336	39574	7382013650497996	third_party/SDL/include/SDL2/SDL_scancode.h	36bd2c9a3ca54200
+39336	39574	7382013650497996	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_scancode.h	36bd2c9a3ca54200
+39378	39623	7382013651396980	third_party/SDL/include/SDL2/SDL_sensor.h	c3d410cca15a193d
+39378	39623	7382013651396980	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_sensor.h	c3d410cca15a193d
+39441	39681	7382013651551001	third_party/SDL/include/SDL2/SDL_shape.h	fe2793b464fa9a8b
+39441	39681	7382013651551001	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_shape.h	fe2793b464fa9a8b
+39574	39739	7382013652468889	third_party/SDL/include/SDL2/SDL_stdinc.h	7260f87688969f4c
+39574	39739	7382013652468889	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_stdinc.h	7260f87688969f4c
+39624	39808	7382013653021822	third_party/SDL/include/SDL2/SDL_surface.h	d27c2560f9bbe09c
+39624	39808	7382013653021822	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_surface.h	d27c2560f9bbe09c
+39682	39868	7382013653719181	third_party/SDL/include/SDL2/SDL_system.h	f3cd8217340d98a0
+39682	39868	7382013653719181	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_system.h	f3cd8217340d98a0
+39739	39948	7382013654231683	third_party/SDL/include/SDL2/SDL_syswm.h	3557293edeb68183
+39739	39948	7382013654231683	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_syswm.h	3557293edeb68183
+39809	40037	7382013655227092	third_party/SDL/include/SDL2/SDL_test.h	1cfb56288fb7100
+39809	40037	7382013655227092	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test.h	1cfb56288fb7100
+39868	40078	7382013655586248	third_party/SDL/include/SDL2/SDL_test_assert.h	b72f551bb56df55b
+39868	40078	7382013655586248	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_assert.h	b72f551bb56df55b
+39949	40130	7382013656164169	third_party/SDL/include/SDL2/SDL_test_common.h	be11d1a29538dd91
+39949	40130	7382013656164169	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_common.h	be11d1a29538dd91
+40037	40237	7382013657010871	third_party/SDL/include/SDL2/SDL_test_compare.h	bfe47c914d6ae47f
+40037	40237	7382013657010871	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_compare.h	bfe47c914d6ae47f
+40078	40295	7382013657485039	third_party/SDL/include/SDL2/SDL_test_crc32.h	334f194a9ddb3826
+40078	40295	7382013657485039	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_crc32.h	334f194a9ddb3826
+40130	40388	7382013658004670	third_party/SDL/include/SDL2/SDL_test_font.h	fbe525a02526269d
+40130	40388	7382013658004670	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_font.h	fbe525a02526269d
+40238	40476	7382013659064040	third_party/SDL/include/SDL2/SDL_test_fuzzer.h	31fc89871126cf8
+40238	40476	7382013659064040	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_fuzzer.h	31fc89871126cf8
+40295	40542	7382013660099603	third_party/SDL/include/SDL2/SDL_test_harness.h	c266826732addc42
+40295	40542	7382013660099603	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_harness.h	c266826732addc42
+40388	40634	7382013661141830	third_party/SDL/include/SDL2/SDL_test_images.h	f17518d0a9dfcfa0
+40388	40634	7382013661141830	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_images.h	f17518d0a9dfcfa0
+40476	40753	7382013662408796	third_party/SDL/include/SDL2/SDL_test_log.h	f8687d67befb682a
+40476	40753	7382013662408796	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_log.h	f8687d67befb682a
+40542	40783	7382013662738246	third_party/SDL/include/SDL2/SDL_test_md5.h	9d13f95fc185a990
+40542	40783	7382013662738246	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_md5.h	9d13f95fc185a990
+40634	40801	7382013662942285	third_party/SDL/include/SDL2/SDL_test_memory.h	b82cd29dde342769
+40634	40801	7382013662942285	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_memory.h	b82cd29dde342769
+40754	41113	7382013664254349	third_party/SDL/include/SDL2/SDL_test_random.h	abe44af4a263a688
+40754	41113	7382013664254349	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_random.h	abe44af4a263a688
+40784	41172	7382013666407037	third_party/SDL/include/SDL2/SDL_thread.h	99e37f988df7539b
+40784	41172	7382013666407037	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_thread.h	99e37f988df7539b
+40801	41200	7382013666499876	third_party/SDL/include/SDL2/SDL_timer.h	e7351734110de4f2
+40801	41200	7382013666499876	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_timer.h	e7351734110de4f2
+41113	41378	7382013668462928	third_party/SDL/include/SDL2/SDL_touch.h	86d109b799ae3572
+41113	41378	7382013668462928	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_touch.h	86d109b799ae3572
+41200	41394	7382013668680744	third_party/SDL/include/SDL2/SDL_version.h	772a9aba59da884
+41200	41394	7382013668680744	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_version.h	772a9aba59da884
+41172	41418	7382013668822189	third_party/SDL/include/SDL2/SDL_types.h	9ab3a87c781a71f7
+41172	41418	7382013668822189	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_types.h	9ab3a87c781a71f7
+41379	41557	7382013670597972	third_party/SDL/include/SDL2/SDL_video.h	7bca28f9bd2633e
+41379	41557	7382013670597972	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_video.h	7bca28f9bd2633e
+41394	41571	7382013670792190	third_party/SDL/include/SDL2/SDL_vulkan.h	ba6597f830e5bc6d
+41394	41571	7382013670792190	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_vulkan.h	ba6597f830e5bc6d
+41418	41575	7382013670874620	third_party/SDL/include/SDL2/begin_code.h	a9ea2aacfead8a60
+41418	41575	7382013670874620	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/begin_code.h	a9ea2aacfead8a60
+41557	41660	7382013671838269	third_party/SDL/include/SDL2/close_code.h	eb1193f6d3fe4357
+41557	41660	7382013671838269	C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/close_code.h	eb1193f6d3fe4357
+41675	43315	7382013688326903	third_party/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.obj	2171b6ed6232e9ca
+41688	43695	7382013692127511	third_party/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.obj	7745f1380c5af947
+43696	45335	7382013708206095	third_party/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.obj	fe64af0b086de782
+41660	45426	7382013708005623	third_party/CMakeFiles/imgui.dir/imgui/imgui.cpp.obj	81f1918d83567220
+43315	45659	7382013711796754	third_party/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.obj	f841299298d2ee13
+45335	46535	7382013720584825	third_party/CMakeFiles/imgui.dir/imgui/imgui_impl_vulkan.cpp.obj	62ca0eae741ca946
+45660	47448	7382013729536482	third_party/SDL/CMakeFiles/SDL2.dir/src/SDL.c.obj	4f29faaf77ebfa78
+45427	47840	7382013733584016	third_party/CMakeFiles/imgui.dir/imgui/imgui_impl_sdl2.cpp.obj	383ceabe52d23d26
+47841	48150	7382013736741860	third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_error.c.obj	266ac84de7a4292a
+46536	48168	7382013736865406	third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_assert.c.obj	f5cd46fc869d18fb
+47452	48304	7382013738284666	third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.obj	9dbda98c67e5e9fc
+48169	48633	7382013741325906	third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_hints.c.obj	431cdfb844bfc306
+48151	48648	7382013741264732	third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_guid.c.obj	8d59cf4d9c0b1e86
+48648	49180	7382013746928528	third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_utils.c.obj	54364de2239d3336
+48305	49455	7382013749785949	third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_list.c.obj	79d5c836be76c700
+49180	49953	7382013754753868	third_party/SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.obj	ad56ecf7024c34a0
+48634	50040	7382013755520210	third_party/SDL/CMakeFiles/SDL2.dir/src/SDL_log.c.obj	9c6b3b9f4790fd60
+49455	50679	7382013761976413	third_party/SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_spinlock.c.obj	c9e1c7a7e598fd44
+50040	51304	7382013768212332	third_party/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.obj	eef32ff56acbc2e2
+50680	51578	7382013770564146	third_party/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.obj	9d3166fd25494e09
+49953	51882	7382013773701156	third_party/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audio.c.obj	90550f9fd0efd8e4
+51305	52402	7382013779231688	third_party/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.obj	6a3d99a956963296
+51579	52580	7382013780924153	third_party/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_mixer.c.obj	6813cfbc308115a7
+51882	53408	7382013789136570	third_party/SDL/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.obj	769ea91f1831b792
+52402	55091	7382013805632237	third_party/SDL/CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.obj	7b9e624e34369185
+52581	56029	7382013813626392	third_party/SDL/CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.obj	a7c4a793e2992ded
+53409	56785	7382013822892027	third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_clipboardevents.c.obj	d7f136e5ff8c8c2d
+56030	58341	7382013838169068	third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_dropevents.c.obj	f12aef118b722f88
+55091	58378	7382013837992850	third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_displayevents.c.obj	d32ce2291863778b
+56786	59158	7382013846778616	third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_events.c.obj	9c98354e50289b00
+59225	59632	7382013851480633	third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_keysym_to_scancode.c.obj	b2223cd4ff494970
+58379	59676	7382013851796016	third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_keyboard.c.obj	4722a6f01c38f267
+58341	59806	7382013853046957	third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.obj	f970938e8111e75
+59807	60403	7382013859164695	third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_scancode_tables.c.obj	18f31b4ed0bfda7f
+59676	61059	7382013865752365	third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_quit.c.obj	6ec8029af606da24
+59632	61142	7382013866532463	third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_mouse.c.obj	9b2e75aec4e3729e
+61142	61670	7382013871552368	third_party/SDL/CMakeFiles/SDL2.dir/src/events/imKStoUCS.c.obj	ec1207797e7512af
+60404	62900	7382013883002703	third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_touch.c.obj	8e73b0d7d6afa0c
+61060	63883	7382013893978521	third_party/SDL/CMakeFiles/SDL2.dir/src/events/SDL_windowevents.c.obj	42a83fb4801cab26
+62907	63935	7382013894295125	third_party/SDL/CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.obj	cefefaecab6a930d
+61670	63964	7382013894451411	third_party/SDL/CMakeFiles/SDL2.dir/src/file/SDL_rwops.c.obj	dc4670939137bda
+63884	65062	7382013905110492	third_party/SDL/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.obj	fb127aec7c2b44cf
+63936	65082	7382013905739623	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_gamecontroller.c.obj	563bb61406bfe13
+63965	65102	7382013905895812	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_joystick.c.obj	6eba343c8767124c
+65063	65541	7382013910361217	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/controller_type.c.obj	6b67ea764745cdbc
+65103	65586	7382013911021914	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_exp.c.obj	f76d3226f3780106
+65082	65603	7382013911191987	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_atan2.c.obj	981ed4cee2bfb9e4
+65586	66072	7382013915840768	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_log.c.obj	6278576b8459a40e
+65603	66087	7382013915840768	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_log10.c.obj	3f9d56cc566214e1
+65542	66187	7382013916938453	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_fmod.c.obj	dbc0c308f03ba8b4
+66087	66507	7382013920321870	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_rem_pio2.c.obj	c83b1bfc9fb55113
+66072	66519	7382013920321870	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_pow.c.obj	d268f6c0a85e7251
+66188	66608	7382013921173140	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/e_sqrt.c.obj	8c8a17186498fc48
+66507	67017	7382013925411869	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/k_cos.c.obj	38189c77c9489324
+66520	67066	7382013925568234	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/k_rem_pio2.c.obj	aedede04cd6a627e
+66609	67126	7382013926193025	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/k_sin.c.obj	c944ac10fd61ae03
+67127	67690	7382013931998297	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_copysign.c.obj	836218acbd78ec29
+67018	67707	7382013931998297	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/k_tan.c.obj	6caf2e68c2525e68
+67067	67902	7382013933725163	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_atan.c.obj	193db12b56bbcbb7
+67708	68589	7382013941103220	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_fabs.c.obj	daa23c6314a6a953
+67691	68663	7382013941855783	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_cos.c.obj	7626121fb141ffcf
+67903	68862	7382013943819431	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_floor.c.obj	52511f3d5273590
+68589	69140	7382013946608137	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.obj	a9c1223c34290326
+68664	69682	7382013952008243	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_sin.c.obj	a2fc5be72e65cc67
+68863	69737	7382013952469506	third_party/SDL/CMakeFiles/SDL2.dir/src/libm/s_tan.c.obj	19e8885870642669
+69140	69923	7382013954401120	third_party/SDL/CMakeFiles/SDL2.dir/src/locale/SDL_locale.c.obj	effc3f37d39e6c9f
+69682	70173	7382013957006181	third_party/SDL/CMakeFiles/SDL2.dir/src/misc/SDL_url.c.obj	574730db87579d72
+69737	70275	7382013957833996	third_party/SDL/CMakeFiles/SDL2.dir/src/power/SDL_power.c.obj	be2292fd279622b2
+69924	70343	7382013958607983	third_party/SDL/CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.obj	45e2766c310c530
+70275	70721	7382013962470522	third_party/SDL/CMakeFiles/SDL2.dir/src/render/SDL_yuv_sw.c.obj	628db074d9456c25
+70174	70734	7382013962572316	third_party/SDL/CMakeFiles/SDL2.dir/src/render/SDL_render.c.obj	1b94e648ff383882
+70343	71656	7382013971797404	third_party/SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_render_d3d.c.obj	2bab5c5ee25a9020
+70722	71670	7382013971871271	third_party/SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.obj	62f11b994d024e31
+70734	72361	7382013978850203	third_party/SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_render_d3d11.c.obj	b7b2042648387e26
+71657	72693	7382013982179932	third_party/SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_shaders_d3d11.c.obj	51630c0d28761fb8
+71671	72952	7382013984766989	third_party/SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_render_d3d12.c.obj	de547502189a31c3
+72694	73599	7382013991247712	third_party/SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_render_gl.c.obj	9ed67ff6e251fdfe
+72361	73618	7382013991436535	third_party/SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_shaders_d3d12.c.obj	e73c5ae0567db1c2
+72953	73715	7382013992420749	third_party/SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_shaders_gl.c.obj	933176c3b4a82329
+73601	73873	7382013993928887	third_party/SDL/CMakeFiles/SDL2.dir/src/render/opengles/SDL_render_gles.c.obj	755096df1b930e2b
+73874	74110	7382013996377143	third_party/SDL/CMakeFiles/SDL2.dir/src/render/ps2/SDL_render_ps2.c.obj	3fa1e447c070d91b
+73716	74151	7382013996586640	third_party/SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_shaders_gles2.c.obj	4298b9e4b92ec027
+74111	74344	7382013998724432	third_party/SDL/CMakeFiles/SDL2.dir/src/render/psp/SDL_render_psp.c.obj	94aa437aa66deb09
+74152	74657	7382014001771803	third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendfillrect.c.obj	916c127b45aab217
+73618	74810	7382014003325978	third_party/SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_render_gles2.c.obj	635dd855b2842793
+74344	74997	7382014005196087	third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendline.c.obj	8eff760f00973999
+74657	75158	7382014006855940	third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.obj	60382738c993beba
+74810	75298	7382014008236748	third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawline.c.obj	a76790e449171fa9
+74997	75423	7382014009458374	third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.obj	e511dbb3e6985788
+75159	75720	7382014012453151	third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_render_sw.c.obj	e19c03b3d8aa130c
+75424	75847	7382014013723564	third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_triangle.c.obj	8f78061fba55a737
+75720	75938	7382014014667346	third_party/SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.obj	997425e9033785e0
+75848	76104	7382014016283382	third_party/SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj	b0382933aaff16cb
+75938	76218	7382014017433512	third_party/SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj	833ca95c0f0f4787
+75298	76406	7382014018608938	third_party/SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_rotate.c.obj	49a4ff5fd26267d
+76219	76542	7382014020597531	third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc16.c.obj	7c9a634021663c74
+76407	76709	7382014022280056	third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc32.c.obj	47dc1ea9da49e000
+76105	77253	7382014027769696	third_party/SDL/CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.obj	7a7598de6fc7eee3
+76710	77265	7382014027789704	third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_iconv.c.obj	712057c1f78a1c5b
+76542	77464	7382014029905209	third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_getenv.c.obj	4a698302344776f1
+77265	77537	7382014030638040	third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_mslibc.c.obj	7498290e1e9a6a47
+77464	77724	7382014032509991	third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_qsort.c.obj	af9832a861b8569e
+77538	77833	7382014033568851	third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_stdlib.c.obj	317468e640bd27ae
+77253	78012	7382014035281407	third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_malloc.c.obj	12cbb3d971932f92
+77725	78045	7382014035669816	third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.obj	e3c032349fe520f9
+77833	78148	7382014036740641	third_party/SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_strtokr.c.obj	6136eb9c169d51e1
+78013	78807	7382014043308114	third_party/SDL/CMakeFiles/SDL2.dir/src/thread/SDL_thread.c.obj	d0b84c0464f591e6
+78045	78819	7382014043379539	third_party/SDL/CMakeFiles/SDL2.dir/src/timer/SDL_timer.c.obj	46814d59e106fe68
+78148	79074	7382014045978847	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.obj	26f1811598c1f49
+78819	79207	7382014047319843	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_0.c.obj	4d0df2e9956cb204
+79208	79699	7382014052244610	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.obj	633598f4167fa237
+78808	79713	7382014052264636	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit.c.obj	d5dcaa1afdadd834
+79074	80043	7382014055653725	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_1.c.obj	46e4c464ece58992
+79714	80232	7382014057410488	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_auto.c.obj	f82c7d8174df4dac
+79699	80415	7382014059372887	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_N.c.obj	c5cd440b302a375
+80043	80593	7382014061173454	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_copy.c.obj	a10db55d879b2302
+80233	80754	7382014062790568	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.obj	e75a6ba27dc0367d
+80415	80913	7382014064397886	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_bmp.c.obj	a4ffb13078a599d4
+80913	81268	7382014067905513	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_fillrect.c.obj	f1378f1e4a02238
+80594	81459	7382014069849641	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_clipboard.c.obj	5757946d61611b25
+80755	81656	7382014071820250	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_egl.c.obj	84a37557ed5f2bdc
+81459	81858	7382014073826873	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_rect.c.obj	887d14bf7ffbdad0
+81268	82228	7382014077540809	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_pixels.c.obj	7ba0e6146497abb
+81859	82280	7382014078041412	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_stretch.c.obj	4c303445a17326e3
+81656	82646	7382014081709028	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_shape.c.obj	c82e6c9eab2ebfce
+82228	83046	7382014085718300	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_surface.c.obj	f68e939686a0d8a0
+82281	83377	7382014088995396	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_video.c.obj	6e952659e5a5c96c
+83046	83519	7382014090424609	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_yuv.c.obj	e8906df01e33386d
+82647	83533	7382014090551254	third_party/SDL/CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.obj	2f1bd07606ed71ae
+83533	83959	7382014094759916	third_party/SDL/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.obj	d3a6a19554f334c7
+83519	83975	7382014095007111	third_party/SDL/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.obj	6c9d769116396d65
+83378	84315	7382014098387297	third_party/SDL/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb.c.obj	77900a30944bbb89
+83960	84485	7382014100099067	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.obj	8e3b212d44da3be2
+83976	84962	7382014104883853	third_party/SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullevents.c.obj	828b65bb9581d6cf
+84316	85099	7382014106233614	third_party/SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullframebuffer.c.obj	67603c1039c3d9d6
+84485	85293	7382014108177899	third_party/SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullvideo.c.obj	e2b7336bf312009d
+84962	85860	7382014113781143	third_party/SDL/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenevents.c.obj	e267f898292d9edb
+85100	86014	7382014115397655	third_party/SDL/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenframebuffer.c.obj	849ade31f6a3991d
+85294	86214	7382014117391291	third_party/SDL/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenopengles.c.obj	77596e54981b4d10
+85861	86722	7382014122491418	third_party/SDL/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenvideo.c.obj	62aacee8f4a49b12
+86014	86790	7382014123159913	third_party/SDL/CMakeFiles/SDL2.dir/src/video/offscreen/SDL_offscreenwindow.c.obj	cb3167cd42ef1538
+86215	86937	7382014124605691	third_party/SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_hid.c.obj	8a056382bbb24f0f
+86938	87603	7382014131296292	third_party/SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_xinput.c.obj	49010061c18e0eeb
+86723	87781	7382014133077504	third_party/SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_immdevice.c.obj	4387dd2c5d2bfc9f
+86791	87793	7382014133138776	third_party/SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_windows.c.obj	7a4b9fb72d87af23
+87603	88286	7382014138144990	third_party/SDL/CMakeFiles/SDL2.dir/src/misc/windows/SDL_sysurl.c.obj	85f544c426f95579
+87781	88482	7382014140084203	third_party/SDL/CMakeFiles/SDL2.dir/src/audio/winmm/SDL_winmm.c.obj	317c30b0f658a68f
+87793	88883	7382014144034372	third_party/SDL/CMakeFiles/SDL2.dir/src/audio/directsound/SDL_directsound.c.obj	291ef9110b800036
+88287	89343	7382014148676730	third_party/SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi.c.obj	fe62f1bda0ceac57
+88483	89547	7382014150721873	third_party/SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi_win32.c.obj	637f016109bd7c0a
+88883	89996	7382014155202034	third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsclipboard.c.obj	a0b998e852d11b17
+89344	90639	7382014161601353	third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsevents.c.obj	a0c3d908d0682366
+89547	90753	7382014162768629	third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsframebuffer.c.obj	107d8974f9ffb309
+89996	91285	7382014168033679	third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowskeyboard.c.obj	83aaf49f74ea3c88
+90640	91969	7382014174924703	third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmessagebox.c.obj	f782ab1fc4253730
+90753	92254	7382014177679611	third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmodes.c.obj	5503ef2648f9131e
+91285	92807	7382014183304471	third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmouse.c.obj	c8c6e336c68a4461
+91969	93407	7382014189319921	third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengl.c.obj	fcec0703490b9e85
+92255	93489	7382014190123900	third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengles.c.obj	a34d06db32c99d16
+92807	93921	7382014194436705	third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsshape.c.obj	f89cbaf77ff2ca20
+93490	94590	7382014201142513	third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvulkan.c.obj	f87ab7ddcc33ba00
+93407	94627	7382014201426162	third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvideo.c.obj	e077ed19eebb293e
+94590	94871	7382014203972237	third_party/SDL/CMakeFiles/SDL2.dir/src/thread/generic/SDL_syscond.c.obj	cd86492e7389352
+93922	95149	7382014206734589	third_party/SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowswindow.c.obj	9c05215c3779dd37
+94628	95463	7382014209890651	third_party/SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syscond_cv.c.obj	9ad32be2d1986790
+94872	95672	7382014211963712	third_party/SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_sysmutex.c.obj	87a44a9b274c8fe9
+95149	96029	7382014215544704	third_party/SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syssem.c.obj	f8eea1ae30f78bbc
+95465	96269	7382014217946541	third_party/SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systhread.c.obj	8ce81990ab2a3d14
+95672	96464	7382014219897663	third_party/SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systls.c.obj	f768da6f21361328
+96270	97000	7382014225117303	third_party/SDL/CMakeFiles/SDL2.dir/src/power/windows/SDL_syspower.c.obj	223f8378bc0943c3
+96030	97115	7382014226389541	third_party/SDL/CMakeFiles/SDL2.dir/src/sensor/windows/SDL_windowssensor.c.obj	3970ed6f5ad39026
+96465	97253	7382014227780699	third_party/SDL/CMakeFiles/SDL2.dir/src/locale/windows/SDL_syslocale.c.obj	a2b926e3f28c41cb
+97116	97854	7382014233809920	third_party/SDL/CMakeFiles/SDL2.dir/src/timer/windows/SDL_systimer.c.obj	a53ef1879dcf101b
+97254	97939	7382014234655453	third_party/SDL/CMakeFiles/SDL2.dir/src/loadso/windows/SDL_sysloadso.c.obj	de58659fc7f6bb16
+97854	98116	7382014236432780	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.obj	a2f92a2b38624f69
+97000	98298	7382014238232489	third_party/SDL/CMakeFiles/SDL2.dir/src/filesystem/windows/SDL_sysfilesystem.c.obj	ad66fc9e9a9cd5a0
+97939	98428	7382014239540190	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.obj	931c61d2bc8b1db
+98117	98580	7382014241051154	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.obj	693e3c25ee987dd9
+98298	98727	7382014242547873	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.obj	6e2b5c7b81040afe
+98428	99038	7382014245428475	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.obj	7c2434b55561e5cd
+98581	99057	7382014245793788	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.obj	c9987e67615c4687
+99057	99506	7382014250328568	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.obj	a11d95dd3376f6e7
+99039	99519	7382014250400017	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.obj	2586defe113671a9
+98728	99621	7382014251444949	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.obj	871f30c80cd758c3
+99506	100007	7382014255164222	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.obj	f1fc526c5050da6c
+99519	100021	7382014255472354	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.obj	f00515e47c98f7f5
+99622	100147	7382014256724342	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_wii.c.obj	671ce1d175558b58
+100007	100488	7382014260106765	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.obj	49931bc315b9c5f
+100022	100500	7382014260227942	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj	c393a771cd921fe5
+100148	100688	7382014262139405	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.obj	358f8e8dbaec5b9f
+100489	101280	7382014268060398	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.obj	6409a01285c39257
+100501	101606	7382014271317991	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_dinputjoystick.c.obj	56b90f6d24b0d652
+101607	102601	7382014281264138	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windowsjoystick.c.obj	b4ba38f3877c7da5
+102602	103542	7382014290677993	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_xinputjoystick.c.obj	d4cdf6a82269e53a
+100689	104064	7382014295792473	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_rawinputjoystick.c.obj	c78a9828094d1d84
+101281	104464	7382014299800511	third_party/SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windows_gaming_input.c.obj	f33b9d6899a89829
+103542	104743	7382014302646328	third_party/SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_dinputhaptic.c.obj	54edaeaaa72bd3f2
+104064	106400	7382014319293274	third_party/SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_windowshaptic.c.obj	7074ba827d49b1ed
+104744	106428	7382014319528370	third_party/SDL/CMakeFiles/SDL2.dir/src/main/windows/version.rc.res	83b3a229cce56ba6
+104465	106759	7382014322824603	third_party/SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_xinputhaptic.c.obj	84bfc8b1b2493165
+106760	108661	7382014341215946	third_party/SDL/SDL2d.dll	de5dcc58616310d8
+106760	108661	7382014341215946	third_party/SDL/SDL2d.lib	de5dcc58616310d8
+108663	109166	7382014346208537	third_party/imgui.lib	7db6058a17c651f9
+106400	110711	7382014362368113	src/CMakeFiles/engine.dir/cmake_pch.cxx.obj	e29495a1eb204237
+110728	110823	7382014363504465	src/CMakeFiles/engine.dir/vk_images.cpp.obj	d24a2ef4d2602a5a
+110721	111592	7382014371171034	src/CMakeFiles/engine.dir/vk_initializers.cpp.obj	cfe47c5507e20cb4
+110713	111635	7382014371551327	src/CMakeFiles/engine.dir/main.cpp.obj	e079f065d67a72a5
+110824	111766	7382014372896066	src/CMakeFiles/engine.dir/vk_descriptors.cpp.obj	2f0a5574d5800c24
+111767	111926	7382014374409509	src/CMakeFiles/engine.dir/vk_loader.cpp.obj	515ebaebd23117be
+111593	112555	7382014380762493	src/CMakeFiles/engine.dir/vk_pipelines.cpp.obj	7825dea6e0b291b0
+111926	112783	7382014383096977	src/CMakeFiles/engine.dir/camera.cpp.obj	ef47812efb7ee7cf
+111636	115524	7382014410471806	src/CMakeFiles/engine.dir/vk_engine.cpp.obj	89382b8190d5563c
+115524	116481	7382014418475931	C:/Users/Khush Mehta/Desktop/Mercury Engine/bin/engine.exe	3432cdc64a51dbfd
+559	9090	7383796690178448	src/CMakeFiles/engine.dir/main.cpp.obj	e079f065d67a72a5
+618	14577	7383796745533405	src/CMakeFiles/engine.dir/vk_engine.cpp.obj	89382b8190d5563c
+14577	16048	7383796757342834	C:/Users/Khush Mehta/Desktop/Mercury Engine/bin/engine.exe	3432cdc64a51dbfd
+683	5551	7384238959437116	src/CMakeFiles/engine.dir/vk_images.cpp.obj	d24a2ef4d2602a5a
+638	5573	7384238959941499	src/CMakeFiles/engine.dir/main.cpp.obj	e079f065d67a72a5
+724	10962	7384239014041082	src/CMakeFiles/engine.dir/vk_engine.cpp.obj	89382b8190d5563c
+10962	12396	7384239025622120	C:/Users/Khush Mehta/Desktop/Mercury Engine/bin/engine.exe	3432cdc64a51dbfd
+130	8740	7384241160250143	src/CMakeFiles/engine.dir/vk_engine.cpp.obj	89382b8190d5563c
+8742	9696	7384241167373579	C:/Users/Khush Mehta/Desktop/Mercury Engine/bin/engine.exe	3432cdc64a51dbfd
+593	7540	7384421360246077	src/CMakeFiles/engine.dir/vk_engine.cpp.obj	89382b8190d5563c
+7542	8675	7384421369677378	C:/Users/Khush Mehta/Desktop/Mercury Engine/bin/engine.exe	3432cdc64a51dbfd
+813	14155	7384422059410475	src/CMakeFiles/engine.dir/vk_engine.cpp.obj	89382b8190d5563c
+14175	15232	7384422067845641	C:/Users/Khush Mehta/Desktop/Mercury Engine/bin/engine.exe	3432cdc64a51dbfd
