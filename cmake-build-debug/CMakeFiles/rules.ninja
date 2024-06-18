@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: vulkan_guide
+# Project: Mercury Engine
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -148,7 +148,7 @@ rule C_COMPILER__SDL2_unscanned_Debug
 rule RC_COMPILER__SDL2_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = C:/Users/KHUSHM~1/AppData/Local/Programs/CLIONN~1/bin/cmake/win/x64/bin/cmcldeps.exe RC $in $DEP_FILE $out "Note: including file: " "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/cl.exe" ${LAUNCHER}${CODE_CHECK}C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe $DEFINES $INCLUDES $FLAGS /fo $out $in
+  command = C:/Users/KHUSHM~1/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmcldeps.exe RC $in $DEP_FILE $out "Note: including file: " "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/cl.exe" ${LAUNCHER}${CODE_CHECK}C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe $DEFINES $INCLUDES $FLAGS /fo $out $in
   description = Building RC object $out
 
 
@@ -156,7 +156,7 @@ rule RC_COMPILER__SDL2_unscanned_Debug
 # Rule for linking C shared library.
 
 rule C_SHARED_LIBRARY_LINKER__SDL2_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E vs_link_dll --intdir=$OBJECT_DIR --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests $MANIFESTS -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\Hostx64\x64\link.exe /nologo @$RSP_FILE  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /dll /version:2.28 $LINK_FLAGS  && $POST_BUILD"
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E vs_link_dll --intdir=$OBJECT_DIR --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests $MANIFESTS -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\Hostx64\x64\link.exe /nologo @$RSP_FILE  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /dll /version:2.28 $LINK_FLAGS  && $POST_BUILD"
   description = Linking C shared library $TARGET_FILE
   rspfile = $RSP_FILE
   rspfile_content = $in_newline $LINK_PATH $LINK_LIBRARIES
@@ -214,7 +214,7 @@ rule CXX_SCAN__engine_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__engine_Debug
-  command = "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=src\CMakeFiles\engine.dir\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=$out @$out.rsp
+  command = "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E cmake_ninja_dyndep --tdi=src\CMakeFiles\engine.dir\CXXDependInfo.json --lang=CXX --modmapfmt=msvc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -242,7 +242,7 @@ rule CXX_COMPILER__engine_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__engine_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E vs_link_exe --intdir=$OBJECT_DIR --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests $MANIFESTS -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\Hostx64\x64\link.exe /nologo $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /version:0.0 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E vs_link_exe --intdir=$OBJECT_DIR --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests $MANIFESTS -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1438~1.331\bin\Hostx64\x64\link.exe /nologo $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /version:0.0 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -251,7 +251,7 @@ rule CXX_EXECUTABLE_LINKER__engine_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Khush Mehta\Desktop\Mercury Engine" -B"C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug"
+  command = "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Khush Mehta\Desktop\Mercury Engine" -B"C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 
@@ -260,7 +260,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\ninja\win\x64\ninja.exe" $FILE_ARG -t clean $TARGETS
+  command = "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\ninja\win\x64\ninja.exe" $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -268,6 +268,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\ninja\win\x64\ninja.exe" -t targets
+  command = "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\ninja\win\x64\ninja.exe" -t targets
   description = All primary targets available:
 

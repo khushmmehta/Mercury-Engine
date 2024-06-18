@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: vulkan_guide
+# Project: Mercury Engine
 # Configurations: Debug
 # =============================================================================
 
@@ -44,14 +44,14 @@ cmake_ninja_workdir = C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\cmake-build
 #############################################
 # Utility command for Shaders
 
-build Shaders: phony CMakeFiles\Shaders C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\gradient.comp.spv C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\gradient_color.comp.spv C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\sky.comp.spv
+build Shaders: phony CMakeFiles\Shaders C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\colored_triangle.frag.spv C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\colored_triangle.vert.spv C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\colored_triangle_mesh.vert.spv C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\gradient.comp.spv C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\gradient_color.comp.spv C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\sky.comp.spv
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -62,7 +62,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Khush Mehta\Desktop\Mercury Engine" -B"C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Khush Mehta\Desktop\Mercury Engine" -B"C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -80,7 +80,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles\install.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -92,7 +92,7 @@ build install: phony CMakeFiles\install.util
 # Utility command for install/local
 
 build CMakeFiles\install\local.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -103,7 +103,34 @@ build install\local: phony CMakeFiles\install\local.util
 #############################################
 # Phony custom command for CMakeFiles\Shaders
 
-build CMakeFiles\Shaders | ${cmake_ninja_workdir}CMakeFiles\Shaders: phony C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\gradient.comp.spv C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\gradient_color.comp.spv C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\sky.comp.spv
+build CMakeFiles\Shaders | ${cmake_ninja_workdir}CMakeFiles\Shaders: phony C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\colored_triangle.frag.spv C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\colored_triangle.vert.spv C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\colored_triangle_mesh.vert.spv C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\gradient.comp.spv C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\gradient_color.comp.spv C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\sky.comp.spv
+
+
+#############################################
+# Custom command for C:\Users\Khush Mehta\Desktop\Mercury Engine\shaders\colored_triangle.frag.spv
+
+build C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\colored_triangle.frag.spv: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\colored_triangle.frag
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug" && C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V "C:/Users/Khush Mehta/Desktop/Mercury Engine/shaders/colored_triangle.frag" -o "C:/Users/Khush Mehta/Desktop/Mercury Engine/shaders/colored_triangle.frag.spv""
+  DESC = Generating C:/Users/Khush Mehta/Desktop/Mercury Engine/shaders/colored_triangle.frag.spv
+  restat = 1
+
+
+#############################################
+# Custom command for C:\Users\Khush Mehta\Desktop\Mercury Engine\shaders\colored_triangle.vert.spv
+
+build C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\colored_triangle.vert.spv: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\colored_triangle.vert
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug" && C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V "C:/Users/Khush Mehta/Desktop/Mercury Engine/shaders/colored_triangle.vert" -o "C:/Users/Khush Mehta/Desktop/Mercury Engine/shaders/colored_triangle.vert.spv""
+  DESC = Generating C:/Users/Khush Mehta/Desktop/Mercury Engine/shaders/colored_triangle.vert.spv
+  restat = 1
+
+
+#############################################
+# Custom command for C:\Users\Khush Mehta\Desktop\Mercury Engine\shaders\colored_triangle_mesh.vert.spv
+
+build C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\colored_triangle_mesh.vert.spv: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\shaders\colored_triangle_mesh.vert
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug" && C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V "C:/Users/Khush Mehta/Desktop/Mercury Engine/shaders/colored_triangle_mesh.vert" -o "C:/Users/Khush Mehta/Desktop/Mercury Engine/shaders/colored_triangle_mesh.vert.spv""
+  DESC = Generating C:/Users/Khush Mehta/Desktop/Mercury Engine/shaders/colored_triangle_mesh.vert.spv
+  restat = 1
 
 
 #############################################
@@ -260,7 +287,7 @@ build third_party\imgui.lib: CXX_STATIC_LIBRARY_LINKER__imgui_Debug third_party\
 # Utility command for edit_cache
 
 build third_party\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -271,7 +298,7 @@ build third_party\edit_cache: phony third_party\CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build third_party\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Khush Mehta\Desktop\Mercury Engine" -B"C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Khush Mehta\Desktop\Mercury Engine" -B"C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -289,7 +316,7 @@ build third_party\list_install_components: phony
 # Utility command for install
 
 build third_party\CMakeFiles\install.util: CUSTOM_COMMAND third_party\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -301,7 +328,7 @@ build third_party\install: phony third_party\CMakeFiles\install.util
 # Utility command for install/local
 
 build third_party\CMakeFiles\install\local.util: CUSTOM_COMMAND third_party\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -398,7 +425,7 @@ build third_party\fastgltf\fastgltf.lib: CXX_STATIC_LIBRARY_LINKER__fastgltf_Deb
 # Utility command for edit_cache
 
 build third_party\fastgltf\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fastgltf" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fastgltf" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -409,7 +436,7 @@ build third_party\fastgltf\edit_cache: phony third_party\fastgltf\CMakeFiles\edi
 # Utility command for rebuild_cache
 
 build third_party\fastgltf\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fastgltf" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Khush Mehta\Desktop\Mercury Engine" -B"C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fastgltf" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Khush Mehta\Desktop\Mercury Engine" -B"C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -427,7 +454,7 @@ build third_party\fastgltf\list_install_components: phony
 # Utility command for install
 
 build third_party\fastgltf\CMakeFiles\install.util: CUSTOM_COMMAND third_party\fastgltf\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fastgltf" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fastgltf" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -439,7 +466,7 @@ build third_party\fastgltf\install: phony third_party\fastgltf\CMakeFiles\instal
 # Utility command for install/local
 
 build third_party\fastgltf\CMakeFiles\install\local.util: CUSTOM_COMMAND third_party\fastgltf\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fastgltf" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fastgltf" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -499,7 +526,7 @@ build third_party\fmt\fmtd.lib: CXX_STATIC_LIBRARY_LINKER__fmt_Debug third_party
 # Utility command for edit_cache
 
 build third_party\fmt\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fmt" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fmt" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -510,7 +537,7 @@ build third_party\fmt\edit_cache: phony third_party\fmt\CMakeFiles\edit_cache.ut
 # Utility command for rebuild_cache
 
 build third_party\fmt\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fmt" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Khush Mehta\Desktop\Mercury Engine" -B"C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fmt" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Khush Mehta\Desktop\Mercury Engine" -B"C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -528,7 +555,7 @@ build third_party\fmt\list_install_components: phony
 # Utility command for install
 
 build third_party\fmt\CMakeFiles\install.util: CUSTOM_COMMAND third_party\fmt\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fmt" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fmt" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -540,7 +567,7 @@ build third_party\fmt\install: phony third_party\fmt\CMakeFiles\install.util
 # Utility command for install/local
 
 build third_party\fmt\CMakeFiles\install\local.util: CUSTOM_COMMAND third_party\fmt\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fmt" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\fmt" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -4284,7 +4311,7 @@ build third_party\SDL\uninstall: phony third_party\SDL\CMakeFiles\uninstall
 # Utility command for edit_cache
 
 build third_party\SDL\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -4295,7 +4322,7 @@ build third_party\SDL\edit_cache: phony third_party\SDL\CMakeFiles\edit_cache.ut
 # Utility command for rebuild_cache
 
 build third_party\SDL\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Khush Mehta\Desktop\Mercury Engine" -B"C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Khush Mehta\Desktop\Mercury Engine" -B"C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -4313,7 +4340,7 @@ build third_party\SDL\list_install_components: phony
 # Utility command for install
 
 build third_party\SDL\CMakeFiles\install.util: CUSTOM_COMMAND third_party\SDL\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -4325,7 +4352,7 @@ build third_party\SDL\install: phony third_party\SDL\CMakeFiles\install.util
 # Utility command for install/local
 
 build third_party\SDL\CMakeFiles\install\local.util: CUSTOM_COMMAND third_party\SDL\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -4343,7 +4370,7 @@ build third_party\SDL\CMakeFiles\sdl_headers_copy | ${cmake_ninja_workdir}third_
 # Custom command for third_party\SDL\include\SDL2\SDL.h
 
 build third_party\SDL\include\SDL2\SDL.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL.h""
   DESC = Generating include/SDL2/SDL.h
   restat = 1
 
@@ -4352,7 +4379,7 @@ build third_party\SDL\include\SDL2\SDL.h | ${cmake_ninja_workdir}third_party\SDL
 # Custom command for third_party\SDL\include\SDL2\SDL_assert.h
 
 build third_party\SDL\include\SDL2\SDL_assert.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_assert.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_assert.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_assert.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_assert.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_assert.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_assert.h""
   DESC = Generating include/SDL2/SDL_assert.h
   restat = 1
 
@@ -4361,7 +4388,7 @@ build third_party\SDL\include\SDL2\SDL_assert.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\SDL_atomic.h
 
 build third_party\SDL\include\SDL2\SDL_atomic.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_atomic.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_atomic.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_atomic.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_atomic.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_atomic.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_atomic.h""
   DESC = Generating include/SDL2/SDL_atomic.h
   restat = 1
 
@@ -4370,7 +4397,7 @@ build third_party\SDL\include\SDL2\SDL_atomic.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\SDL_audio.h
 
 build third_party\SDL\include\SDL2\SDL_audio.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_audio.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_audio.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_audio.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_audio.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_audio.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_audio.h""
   DESC = Generating include/SDL2/SDL_audio.h
   restat = 1
 
@@ -4379,7 +4406,7 @@ build third_party\SDL\include\SDL2\SDL_audio.h | ${cmake_ninja_workdir}third_par
 # Custom command for third_party\SDL\include\SDL2\SDL_bits.h
 
 build third_party\SDL\include\SDL2\SDL_bits.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_bits.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_bits.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_bits.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_bits.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_bits.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_bits.h""
   DESC = Generating include/SDL2/SDL_bits.h
   restat = 1
 
@@ -4388,7 +4415,7 @@ build third_party\SDL\include\SDL2\SDL_bits.h | ${cmake_ninja_workdir}third_part
 # Custom command for third_party\SDL\include\SDL2\SDL_blendmode.h
 
 build third_party\SDL\include\SDL2\SDL_blendmode.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_blendmode.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_blendmode.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_blendmode.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_blendmode.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_blendmode.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_blendmode.h""
   DESC = Generating include/SDL2/SDL_blendmode.h
   restat = 1
 
@@ -4397,7 +4424,7 @@ build third_party\SDL\include\SDL2\SDL_blendmode.h | ${cmake_ninja_workdir}third
 # Custom command for third_party\SDL\include\SDL2\SDL_clipboard.h
 
 build third_party\SDL\include\SDL2\SDL_clipboard.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_clipboard.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_clipboard.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_clipboard.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_clipboard.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_clipboard.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_clipboard.h""
   DESC = Generating include/SDL2/SDL_clipboard.h
   restat = 1
 
@@ -4406,7 +4433,7 @@ build third_party\SDL\include\SDL2\SDL_clipboard.h | ${cmake_ninja_workdir}third
 # Custom command for third_party\SDL\include\SDL2\SDL_copying.h
 
 build third_party\SDL\include\SDL2\SDL_copying.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_copying.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_copying.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_copying.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_copying.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_copying.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_copying.h""
   DESC = Generating include/SDL2/SDL_copying.h
   restat = 1
 
@@ -4415,7 +4442,7 @@ build third_party\SDL\include\SDL2\SDL_copying.h | ${cmake_ninja_workdir}third_p
 # Custom command for third_party\SDL\include\SDL2\SDL_cpuinfo.h
 
 build third_party\SDL\include\SDL2\SDL_cpuinfo.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_cpuinfo.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_cpuinfo.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_cpuinfo.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_cpuinfo.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_cpuinfo.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_cpuinfo.h""
   DESC = Generating include/SDL2/SDL_cpuinfo.h
   restat = 1
 
@@ -4424,7 +4451,7 @@ build third_party\SDL\include\SDL2\SDL_cpuinfo.h | ${cmake_ninja_workdir}third_p
 # Custom command for third_party\SDL\include\SDL2\SDL_egl.h
 
 build third_party\SDL\include\SDL2\SDL_egl.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_egl.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_egl.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_egl.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_egl.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_egl.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_egl.h""
   DESC = Generating include/SDL2/SDL_egl.h
   restat = 1
 
@@ -4433,7 +4460,7 @@ build third_party\SDL\include\SDL2\SDL_egl.h | ${cmake_ninja_workdir}third_party
 # Custom command for third_party\SDL\include\SDL2\SDL_endian.h
 
 build third_party\SDL\include\SDL2\SDL_endian.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_endian.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_endian.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_endian.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_endian.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_endian.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_endian.h""
   DESC = Generating include/SDL2/SDL_endian.h
   restat = 1
 
@@ -4442,7 +4469,7 @@ build third_party\SDL\include\SDL2\SDL_endian.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\SDL_error.h
 
 build third_party\SDL\include\SDL2\SDL_error.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_error.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_error.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_error.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_error.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_error.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_error.h""
   DESC = Generating include/SDL2/SDL_error.h
   restat = 1
 
@@ -4451,7 +4478,7 @@ build third_party\SDL\include\SDL2\SDL_error.h | ${cmake_ninja_workdir}third_par
 # Custom command for third_party\SDL\include\SDL2\SDL_events.h
 
 build third_party\SDL\include\SDL2\SDL_events.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_events.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_events.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_events.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_events.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_events.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_events.h""
   DESC = Generating include/SDL2/SDL_events.h
   restat = 1
 
@@ -4460,7 +4487,7 @@ build third_party\SDL\include\SDL2\SDL_events.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\SDL_filesystem.h
 
 build third_party\SDL\include\SDL2\SDL_filesystem.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_filesystem.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_filesystem.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_filesystem.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_filesystem.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_filesystem.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_filesystem.h""
   DESC = Generating include/SDL2/SDL_filesystem.h
   restat = 1
 
@@ -4469,7 +4496,7 @@ build third_party\SDL\include\SDL2\SDL_filesystem.h | ${cmake_ninja_workdir}thir
 # Custom command for third_party\SDL\include\SDL2\SDL_gamecontroller.h
 
 build third_party\SDL\include\SDL2\SDL_gamecontroller.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_gamecontroller.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_gamecontroller.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_gamecontroller.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_gamecontroller.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_gamecontroller.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_gamecontroller.h""
   DESC = Generating include/SDL2/SDL_gamecontroller.h
   restat = 1
 
@@ -4478,7 +4505,7 @@ build third_party\SDL\include\SDL2\SDL_gamecontroller.h | ${cmake_ninja_workdir}
 # Custom command for third_party\SDL\include\SDL2\SDL_gesture.h
 
 build third_party\SDL\include\SDL2\SDL_gesture.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_gesture.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_gesture.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_gesture.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_gesture.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_gesture.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_gesture.h""
   DESC = Generating include/SDL2/SDL_gesture.h
   restat = 1
 
@@ -4487,7 +4514,7 @@ build third_party\SDL\include\SDL2\SDL_gesture.h | ${cmake_ninja_workdir}third_p
 # Custom command for third_party\SDL\include\SDL2\SDL_guid.h
 
 build third_party\SDL\include\SDL2\SDL_guid.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_guid.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_guid.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_guid.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_guid.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_guid.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_guid.h""
   DESC = Generating include/SDL2/SDL_guid.h
   restat = 1
 
@@ -4496,7 +4523,7 @@ build third_party\SDL\include\SDL2\SDL_guid.h | ${cmake_ninja_workdir}third_part
 # Custom command for third_party\SDL\include\SDL2\SDL_haptic.h
 
 build third_party\SDL\include\SDL2\SDL_haptic.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_haptic.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_haptic.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_haptic.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_haptic.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_haptic.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_haptic.h""
   DESC = Generating include/SDL2/SDL_haptic.h
   restat = 1
 
@@ -4505,7 +4532,7 @@ build third_party\SDL\include\SDL2\SDL_haptic.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\SDL_hidapi.h
 
 build third_party\SDL\include\SDL2\SDL_hidapi.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_hidapi.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_hidapi.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_hidapi.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_hidapi.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_hidapi.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_hidapi.h""
   DESC = Generating include/SDL2/SDL_hidapi.h
   restat = 1
 
@@ -4514,7 +4541,7 @@ build third_party\SDL\include\SDL2\SDL_hidapi.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\SDL_hints.h
 
 build third_party\SDL\include\SDL2\SDL_hints.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_hints.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_hints.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_hints.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_hints.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_hints.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_hints.h""
   DESC = Generating include/SDL2/SDL_hints.h
   restat = 1
 
@@ -4523,7 +4550,7 @@ build third_party\SDL\include\SDL2\SDL_hints.h | ${cmake_ninja_workdir}third_par
 # Custom command for third_party\SDL\include\SDL2\SDL_joystick.h
 
 build third_party\SDL\include\SDL2\SDL_joystick.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_joystick.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_joystick.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_joystick.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_joystick.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_joystick.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_joystick.h""
   DESC = Generating include/SDL2/SDL_joystick.h
   restat = 1
 
@@ -4532,7 +4559,7 @@ build third_party\SDL\include\SDL2\SDL_joystick.h | ${cmake_ninja_workdir}third_
 # Custom command for third_party\SDL\include\SDL2\SDL_keyboard.h
 
 build third_party\SDL\include\SDL2\SDL_keyboard.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_keyboard.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_keyboard.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_keyboard.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_keyboard.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_keyboard.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_keyboard.h""
   DESC = Generating include/SDL2/SDL_keyboard.h
   restat = 1
 
@@ -4541,7 +4568,7 @@ build third_party\SDL\include\SDL2\SDL_keyboard.h | ${cmake_ninja_workdir}third_
 # Custom command for third_party\SDL\include\SDL2\SDL_keycode.h
 
 build third_party\SDL\include\SDL2\SDL_keycode.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_keycode.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_keycode.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_keycode.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_keycode.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_keycode.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_keycode.h""
   DESC = Generating include/SDL2/SDL_keycode.h
   restat = 1
 
@@ -4550,7 +4577,7 @@ build third_party\SDL\include\SDL2\SDL_keycode.h | ${cmake_ninja_workdir}third_p
 # Custom command for third_party\SDL\include\SDL2\SDL_loadso.h
 
 build third_party\SDL\include\SDL2\SDL_loadso.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_loadso.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_loadso.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_loadso.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_loadso.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_loadso.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_loadso.h""
   DESC = Generating include/SDL2/SDL_loadso.h
   restat = 1
 
@@ -4559,7 +4586,7 @@ build third_party\SDL\include\SDL2\SDL_loadso.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\SDL_locale.h
 
 build third_party\SDL\include\SDL2\SDL_locale.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_locale.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_locale.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_locale.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_locale.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_locale.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_locale.h""
   DESC = Generating include/SDL2/SDL_locale.h
   restat = 1
 
@@ -4568,7 +4595,7 @@ build third_party\SDL\include\SDL2\SDL_locale.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\SDL_log.h
 
 build third_party\SDL\include\SDL2\SDL_log.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_log.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_log.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_log.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_log.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_log.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_log.h""
   DESC = Generating include/SDL2/SDL_log.h
   restat = 1
 
@@ -4577,7 +4604,7 @@ build third_party\SDL\include\SDL2\SDL_log.h | ${cmake_ninja_workdir}third_party
 # Custom command for third_party\SDL\include\SDL2\SDL_main.h
 
 build third_party\SDL\include\SDL2\SDL_main.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_main.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_main.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_main.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_main.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_main.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_main.h""
   DESC = Generating include/SDL2/SDL_main.h
   restat = 1
 
@@ -4586,7 +4613,7 @@ build third_party\SDL\include\SDL2\SDL_main.h | ${cmake_ninja_workdir}third_part
 # Custom command for third_party\SDL\include\SDL2\SDL_messagebox.h
 
 build third_party\SDL\include\SDL2\SDL_messagebox.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_messagebox.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_messagebox.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_messagebox.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_messagebox.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_messagebox.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_messagebox.h""
   DESC = Generating include/SDL2/SDL_messagebox.h
   restat = 1
 
@@ -4595,7 +4622,7 @@ build third_party\SDL\include\SDL2\SDL_messagebox.h | ${cmake_ninja_workdir}thir
 # Custom command for third_party\SDL\include\SDL2\SDL_metal.h
 
 build third_party\SDL\include\SDL2\SDL_metal.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_metal.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_metal.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_metal.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_metal.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_metal.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_metal.h""
   DESC = Generating include/SDL2/SDL_metal.h
   restat = 1
 
@@ -4604,7 +4631,7 @@ build third_party\SDL\include\SDL2\SDL_metal.h | ${cmake_ninja_workdir}third_par
 # Custom command for third_party\SDL\include\SDL2\SDL_misc.h
 
 build third_party\SDL\include\SDL2\SDL_misc.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_misc.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_misc.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_misc.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_misc.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_misc.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_misc.h""
   DESC = Generating include/SDL2/SDL_misc.h
   restat = 1
 
@@ -4613,7 +4640,7 @@ build third_party\SDL\include\SDL2\SDL_misc.h | ${cmake_ninja_workdir}third_part
 # Custom command for third_party\SDL\include\SDL2\SDL_mouse.h
 
 build third_party\SDL\include\SDL2\SDL_mouse.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_mouse.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_mouse.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_mouse.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_mouse.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_mouse.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_mouse.h""
   DESC = Generating include/SDL2/SDL_mouse.h
   restat = 1
 
@@ -4622,7 +4649,7 @@ build third_party\SDL\include\SDL2\SDL_mouse.h | ${cmake_ninja_workdir}third_par
 # Custom command for third_party\SDL\include\SDL2\SDL_mutex.h
 
 build third_party\SDL\include\SDL2\SDL_mutex.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_mutex.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_mutex.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_mutex.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_mutex.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_mutex.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_mutex.h""
   DESC = Generating include/SDL2/SDL_mutex.h
   restat = 1
 
@@ -4631,7 +4658,7 @@ build third_party\SDL\include\SDL2\SDL_mutex.h | ${cmake_ninja_workdir}third_par
 # Custom command for third_party\SDL\include\SDL2\SDL_name.h
 
 build third_party\SDL\include\SDL2\SDL_name.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_name.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_name.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_name.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_name.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_name.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_name.h""
   DESC = Generating include/SDL2/SDL_name.h
   restat = 1
 
@@ -4640,7 +4667,7 @@ build third_party\SDL\include\SDL2\SDL_name.h | ${cmake_ninja_workdir}third_part
 # Custom command for third_party\SDL\include\SDL2\SDL_opengl.h
 
 build third_party\SDL\include\SDL2\SDL_opengl.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_opengl.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_opengl.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengl.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengl.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengl.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengl.h""
   DESC = Generating include/SDL2/SDL_opengl.h
   restat = 1
 
@@ -4649,7 +4676,7 @@ build third_party\SDL\include\SDL2\SDL_opengl.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\SDL_opengl_glext.h
 
 build third_party\SDL\include\SDL2\SDL_opengl_glext.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_opengl_glext.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_opengl_glext.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengl_glext.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengl_glext.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengl_glext.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengl_glext.h""
   DESC = Generating include/SDL2/SDL_opengl_glext.h
   restat = 1
 
@@ -4658,7 +4685,7 @@ build third_party\SDL\include\SDL2\SDL_opengl_glext.h | ${cmake_ninja_workdir}th
 # Custom command for third_party\SDL\include\SDL2\SDL_opengles.h
 
 build third_party\SDL\include\SDL2\SDL_opengles.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_opengles.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_opengles.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengles.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengles.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles.h""
   DESC = Generating include/SDL2/SDL_opengles.h
   restat = 1
 
@@ -4667,7 +4694,7 @@ build third_party\SDL\include\SDL2\SDL_opengles.h | ${cmake_ninja_workdir}third_
 # Custom command for third_party\SDL\include\SDL2\SDL_opengles2.h
 
 build third_party\SDL\include\SDL2\SDL_opengles2.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_opengles2.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_opengles2.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengles2.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengles2.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2.h""
   DESC = Generating include/SDL2/SDL_opengles2.h
   restat = 1
 
@@ -4676,7 +4703,7 @@ build third_party\SDL\include\SDL2\SDL_opengles2.h | ${cmake_ninja_workdir}third
 # Custom command for third_party\SDL\include\SDL2\SDL_opengles2_gl2.h
 
 build third_party\SDL\include\SDL2\SDL_opengles2_gl2.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_opengles2_gl2.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_opengles2_gl2.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengles2_gl2.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_gl2.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengles2_gl2.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_gl2.h""
   DESC = Generating include/SDL2/SDL_opengles2_gl2.h
   restat = 1
 
@@ -4685,7 +4712,7 @@ build third_party\SDL\include\SDL2\SDL_opengles2_gl2.h | ${cmake_ninja_workdir}t
 # Custom command for third_party\SDL\include\SDL2\SDL_opengles2_gl2ext.h
 
 build third_party\SDL\include\SDL2\SDL_opengles2_gl2ext.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_opengles2_gl2ext.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_opengles2_gl2ext.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengles2_gl2ext.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_gl2ext.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengles2_gl2ext.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_gl2ext.h""
   DESC = Generating include/SDL2/SDL_opengles2_gl2ext.h
   restat = 1
 
@@ -4694,7 +4721,7 @@ build third_party\SDL\include\SDL2\SDL_opengles2_gl2ext.h | ${cmake_ninja_workdi
 # Custom command for third_party\SDL\include\SDL2\SDL_opengles2_gl2platform.h
 
 build third_party\SDL\include\SDL2\SDL_opengles2_gl2platform.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_opengles2_gl2platform.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_opengles2_gl2platform.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengles2_gl2platform.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_gl2platform.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengles2_gl2platform.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_gl2platform.h""
   DESC = Generating include/SDL2/SDL_opengles2_gl2platform.h
   restat = 1
 
@@ -4703,7 +4730,7 @@ build third_party\SDL\include\SDL2\SDL_opengles2_gl2platform.h | ${cmake_ninja_w
 # Custom command for third_party\SDL\include\SDL2\SDL_opengles2_khrplatform.h
 
 build third_party\SDL\include\SDL2\SDL_opengles2_khrplatform.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_opengles2_khrplatform.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_opengles2_khrplatform.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengles2_khrplatform.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_khrplatform.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_opengles2_khrplatform.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_opengles2_khrplatform.h""
   DESC = Generating include/SDL2/SDL_opengles2_khrplatform.h
   restat = 1
 
@@ -4712,7 +4739,7 @@ build third_party\SDL\include\SDL2\SDL_opengles2_khrplatform.h | ${cmake_ninja_w
 # Custom command for third_party\SDL\include\SDL2\SDL_pixels.h
 
 build third_party\SDL\include\SDL2\SDL_pixels.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_pixels.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_pixels.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_pixels.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_pixels.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_pixels.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_pixels.h""
   DESC = Generating include/SDL2/SDL_pixels.h
   restat = 1
 
@@ -4721,7 +4748,7 @@ build third_party\SDL\include\SDL2\SDL_pixels.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\SDL_platform.h
 
 build third_party\SDL\include\SDL2\SDL_platform.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_platform.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_platform.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_platform.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_platform.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_platform.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_platform.h""
   DESC = Generating include/SDL2/SDL_platform.h
   restat = 1
 
@@ -4730,7 +4757,7 @@ build third_party\SDL\include\SDL2\SDL_platform.h | ${cmake_ninja_workdir}third_
 # Custom command for third_party\SDL\include\SDL2\SDL_power.h
 
 build third_party\SDL\include\SDL2\SDL_power.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_power.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_power.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_power.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_power.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_power.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_power.h""
   DESC = Generating include/SDL2/SDL_power.h
   restat = 1
 
@@ -4739,7 +4766,7 @@ build third_party\SDL\include\SDL2\SDL_power.h | ${cmake_ninja_workdir}third_par
 # Custom command for third_party\SDL\include\SDL2\SDL_quit.h
 
 build third_party\SDL\include\SDL2\SDL_quit.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_quit.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_quit.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_quit.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_quit.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_quit.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_quit.h""
   DESC = Generating include/SDL2/SDL_quit.h
   restat = 1
 
@@ -4748,7 +4775,7 @@ build third_party\SDL\include\SDL2\SDL_quit.h | ${cmake_ninja_workdir}third_part
 # Custom command for third_party\SDL\include\SDL2\SDL_rect.h
 
 build third_party\SDL\include\SDL2\SDL_rect.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_rect.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_rect.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_rect.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_rect.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_rect.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_rect.h""
   DESC = Generating include/SDL2/SDL_rect.h
   restat = 1
 
@@ -4757,7 +4784,7 @@ build third_party\SDL\include\SDL2\SDL_rect.h | ${cmake_ninja_workdir}third_part
 # Custom command for third_party\SDL\include\SDL2\SDL_render.h
 
 build third_party\SDL\include\SDL2\SDL_render.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_render.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_render.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_render.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_render.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_render.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_render.h""
   DESC = Generating include/SDL2/SDL_render.h
   restat = 1
 
@@ -4766,7 +4793,7 @@ build third_party\SDL\include\SDL2\SDL_render.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\SDL_rwops.h
 
 build third_party\SDL\include\SDL2\SDL_rwops.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_rwops.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_rwops.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_rwops.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_rwops.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_rwops.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_rwops.h""
   DESC = Generating include/SDL2/SDL_rwops.h
   restat = 1
 
@@ -4775,7 +4802,7 @@ build third_party\SDL\include\SDL2\SDL_rwops.h | ${cmake_ninja_workdir}third_par
 # Custom command for third_party\SDL\include\SDL2\SDL_scancode.h
 
 build third_party\SDL\include\SDL2\SDL_scancode.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_scancode.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_scancode.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_scancode.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_scancode.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_scancode.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_scancode.h""
   DESC = Generating include/SDL2/SDL_scancode.h
   restat = 1
 
@@ -4784,7 +4811,7 @@ build third_party\SDL\include\SDL2\SDL_scancode.h | ${cmake_ninja_workdir}third_
 # Custom command for third_party\SDL\include\SDL2\SDL_sensor.h
 
 build third_party\SDL\include\SDL2\SDL_sensor.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_sensor.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_sensor.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_sensor.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_sensor.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_sensor.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_sensor.h""
   DESC = Generating include/SDL2/SDL_sensor.h
   restat = 1
 
@@ -4793,7 +4820,7 @@ build third_party\SDL\include\SDL2\SDL_sensor.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\SDL_shape.h
 
 build third_party\SDL\include\SDL2\SDL_shape.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_shape.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_shape.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_shape.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_shape.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_shape.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_shape.h""
   DESC = Generating include/SDL2/SDL_shape.h
   restat = 1
 
@@ -4802,7 +4829,7 @@ build third_party\SDL\include\SDL2\SDL_shape.h | ${cmake_ninja_workdir}third_par
 # Custom command for third_party\SDL\include\SDL2\SDL_stdinc.h
 
 build third_party\SDL\include\SDL2\SDL_stdinc.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_stdinc.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_stdinc.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_stdinc.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_stdinc.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_stdinc.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_stdinc.h""
   DESC = Generating include/SDL2/SDL_stdinc.h
   restat = 1
 
@@ -4811,7 +4838,7 @@ build third_party\SDL\include\SDL2\SDL_stdinc.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\SDL_surface.h
 
 build third_party\SDL\include\SDL2\SDL_surface.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_surface.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_surface.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_surface.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_surface.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_surface.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_surface.h""
   DESC = Generating include/SDL2/SDL_surface.h
   restat = 1
 
@@ -4820,7 +4847,7 @@ build third_party\SDL\include\SDL2\SDL_surface.h | ${cmake_ninja_workdir}third_p
 # Custom command for third_party\SDL\include\SDL2\SDL_system.h
 
 build third_party\SDL\include\SDL2\SDL_system.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_system.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_system.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_system.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_system.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_system.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_system.h""
   DESC = Generating include/SDL2/SDL_system.h
   restat = 1
 
@@ -4829,7 +4856,7 @@ build third_party\SDL\include\SDL2\SDL_system.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\SDL_syswm.h
 
 build third_party\SDL\include\SDL2\SDL_syswm.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_syswm.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_syswm.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_syswm.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_syswm.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_syswm.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_syswm.h""
   DESC = Generating include/SDL2/SDL_syswm.h
   restat = 1
 
@@ -4838,7 +4865,7 @@ build third_party\SDL\include\SDL2\SDL_syswm.h | ${cmake_ninja_workdir}third_par
 # Custom command for third_party\SDL\include\SDL2\SDL_test.h
 
 build third_party\SDL\include\SDL2\SDL_test.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_test.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_test.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test.h""
   DESC = Generating include/SDL2/SDL_test.h
   restat = 1
 
@@ -4847,7 +4874,7 @@ build third_party\SDL\include\SDL2\SDL_test.h | ${cmake_ninja_workdir}third_part
 # Custom command for third_party\SDL\include\SDL2\SDL_test_assert.h
 
 build third_party\SDL\include\SDL2\SDL_test_assert.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_test_assert.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_test_assert.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_assert.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_assert.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_assert.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_assert.h""
   DESC = Generating include/SDL2/SDL_test_assert.h
   restat = 1
 
@@ -4856,7 +4883,7 @@ build third_party\SDL\include\SDL2\SDL_test_assert.h | ${cmake_ninja_workdir}thi
 # Custom command for third_party\SDL\include\SDL2\SDL_test_common.h
 
 build third_party\SDL\include\SDL2\SDL_test_common.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_test_common.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_test_common.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_common.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_common.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_common.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_common.h""
   DESC = Generating include/SDL2/SDL_test_common.h
   restat = 1
 
@@ -4865,7 +4892,7 @@ build third_party\SDL\include\SDL2\SDL_test_common.h | ${cmake_ninja_workdir}thi
 # Custom command for third_party\SDL\include\SDL2\SDL_test_compare.h
 
 build third_party\SDL\include\SDL2\SDL_test_compare.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_test_compare.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_test_compare.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_compare.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_compare.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_compare.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_compare.h""
   DESC = Generating include/SDL2/SDL_test_compare.h
   restat = 1
 
@@ -4874,7 +4901,7 @@ build third_party\SDL\include\SDL2\SDL_test_compare.h | ${cmake_ninja_workdir}th
 # Custom command for third_party\SDL\include\SDL2\SDL_test_crc32.h
 
 build third_party\SDL\include\SDL2\SDL_test_crc32.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_test_crc32.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_test_crc32.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_crc32.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_crc32.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_crc32.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_crc32.h""
   DESC = Generating include/SDL2/SDL_test_crc32.h
   restat = 1
 
@@ -4883,7 +4910,7 @@ build third_party\SDL\include\SDL2\SDL_test_crc32.h | ${cmake_ninja_workdir}thir
 # Custom command for third_party\SDL\include\SDL2\SDL_test_font.h
 
 build third_party\SDL\include\SDL2\SDL_test_font.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_test_font.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_test_font.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_font.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_font.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_font.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_font.h""
   DESC = Generating include/SDL2/SDL_test_font.h
   restat = 1
 
@@ -4892,7 +4919,7 @@ build third_party\SDL\include\SDL2\SDL_test_font.h | ${cmake_ninja_workdir}third
 # Custom command for third_party\SDL\include\SDL2\SDL_test_fuzzer.h
 
 build third_party\SDL\include\SDL2\SDL_test_fuzzer.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_test_fuzzer.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_test_fuzzer.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_fuzzer.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_fuzzer.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_fuzzer.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_fuzzer.h""
   DESC = Generating include/SDL2/SDL_test_fuzzer.h
   restat = 1
 
@@ -4901,7 +4928,7 @@ build third_party\SDL\include\SDL2\SDL_test_fuzzer.h | ${cmake_ninja_workdir}thi
 # Custom command for third_party\SDL\include\SDL2\SDL_test_harness.h
 
 build third_party\SDL\include\SDL2\SDL_test_harness.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_test_harness.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_test_harness.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_harness.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_harness.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_harness.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_harness.h""
   DESC = Generating include/SDL2/SDL_test_harness.h
   restat = 1
 
@@ -4910,7 +4937,7 @@ build third_party\SDL\include\SDL2\SDL_test_harness.h | ${cmake_ninja_workdir}th
 # Custom command for third_party\SDL\include\SDL2\SDL_test_images.h
 
 build third_party\SDL\include\SDL2\SDL_test_images.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_test_images.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_test_images.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_images.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_images.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_images.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_images.h""
   DESC = Generating include/SDL2/SDL_test_images.h
   restat = 1
 
@@ -4919,7 +4946,7 @@ build third_party\SDL\include\SDL2\SDL_test_images.h | ${cmake_ninja_workdir}thi
 # Custom command for third_party\SDL\include\SDL2\SDL_test_log.h
 
 build third_party\SDL\include\SDL2\SDL_test_log.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_test_log.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_test_log.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_log.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_log.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_log.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_log.h""
   DESC = Generating include/SDL2/SDL_test_log.h
   restat = 1
 
@@ -4928,7 +4955,7 @@ build third_party\SDL\include\SDL2\SDL_test_log.h | ${cmake_ninja_workdir}third_
 # Custom command for third_party\SDL\include\SDL2\SDL_test_md5.h
 
 build third_party\SDL\include\SDL2\SDL_test_md5.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_test_md5.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_test_md5.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_md5.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_md5.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_md5.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_md5.h""
   DESC = Generating include/SDL2/SDL_test_md5.h
   restat = 1
 
@@ -4937,7 +4964,7 @@ build third_party\SDL\include\SDL2\SDL_test_md5.h | ${cmake_ninja_workdir}third_
 # Custom command for third_party\SDL\include\SDL2\SDL_test_memory.h
 
 build third_party\SDL\include\SDL2\SDL_test_memory.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_test_memory.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_test_memory.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_memory.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_memory.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_memory.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_memory.h""
   DESC = Generating include/SDL2/SDL_test_memory.h
   restat = 1
 
@@ -4946,7 +4973,7 @@ build third_party\SDL\include\SDL2\SDL_test_memory.h | ${cmake_ninja_workdir}thi
 # Custom command for third_party\SDL\include\SDL2\SDL_test_random.h
 
 build third_party\SDL\include\SDL2\SDL_test_random.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_test_random.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_test_random.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_random.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_random.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_test_random.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_test_random.h""
   DESC = Generating include/SDL2/SDL_test_random.h
   restat = 1
 
@@ -4955,7 +4982,7 @@ build third_party\SDL\include\SDL2\SDL_test_random.h | ${cmake_ninja_workdir}thi
 # Custom command for third_party\SDL\include\SDL2\SDL_thread.h
 
 build third_party\SDL\include\SDL2\SDL_thread.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_thread.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_thread.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_thread.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_thread.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_thread.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_thread.h""
   DESC = Generating include/SDL2/SDL_thread.h
   restat = 1
 
@@ -4964,7 +4991,7 @@ build third_party\SDL\include\SDL2\SDL_thread.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\SDL_timer.h
 
 build third_party\SDL\include\SDL2\SDL_timer.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_timer.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_timer.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_timer.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_timer.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_timer.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_timer.h""
   DESC = Generating include/SDL2/SDL_timer.h
   restat = 1
 
@@ -4973,7 +5000,7 @@ build third_party\SDL\include\SDL2\SDL_timer.h | ${cmake_ninja_workdir}third_par
 # Custom command for third_party\SDL\include\SDL2\SDL_touch.h
 
 build third_party\SDL\include\SDL2\SDL_touch.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_touch.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_touch.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_touch.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_touch.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_touch.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_touch.h""
   DESC = Generating include/SDL2/SDL_touch.h
   restat = 1
 
@@ -4982,7 +5009,7 @@ build third_party\SDL\include\SDL2\SDL_touch.h | ${cmake_ninja_workdir}third_par
 # Custom command for third_party\SDL\include\SDL2\SDL_types.h
 
 build third_party\SDL\include\SDL2\SDL_types.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_types.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_types.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_types.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_types.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_types.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_types.h""
   DESC = Generating include/SDL2/SDL_types.h
   restat = 1
 
@@ -4991,7 +5018,7 @@ build third_party\SDL\include\SDL2\SDL_types.h | ${cmake_ninja_workdir}third_par
 # Custom command for third_party\SDL\include\SDL2\SDL_version.h
 
 build third_party\SDL\include\SDL2\SDL_version.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_version.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_version.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_version.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_version.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_version.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_version.h""
   DESC = Generating include/SDL2/SDL_version.h
   restat = 1
 
@@ -5000,7 +5027,7 @@ build third_party\SDL\include\SDL2\SDL_version.h | ${cmake_ninja_workdir}third_p
 # Custom command for third_party\SDL\include\SDL2\SDL_video.h
 
 build third_party\SDL\include\SDL2\SDL_video.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_video.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_video.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_video.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_video.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_video.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_video.h""
   DESC = Generating include/SDL2/SDL_video.h
   restat = 1
 
@@ -5009,7 +5036,7 @@ build third_party\SDL\include\SDL2\SDL_video.h | ${cmake_ninja_workdir}third_par
 # Custom command for third_party\SDL\include\SDL2\SDL_vulkan.h
 
 build third_party\SDL\include\SDL2\SDL_vulkan.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\SDL_vulkan.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_vulkan.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_vulkan.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_vulkan.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/SDL_vulkan.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/SDL_vulkan.h""
   DESC = Generating include/SDL2/SDL_vulkan.h
   restat = 1
 
@@ -5018,7 +5045,7 @@ build third_party\SDL\include\SDL2\SDL_vulkan.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\begin_code.h
 
 build third_party\SDL\include\SDL2\begin_code.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\begin_code.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\begin_code.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/begin_code.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/begin_code.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/begin_code.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/begin_code.h""
   DESC = Generating include/SDL2/begin_code.h
   restat = 1
 
@@ -5027,7 +5054,7 @@ build third_party\SDL\include\SDL2\begin_code.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\include\SDL2\close_code.h
 
 build third_party\SDL\include\SDL2\close_code.h | ${cmake_ninja_workdir}third_party\SDL\include\SDL2\close_code.h: CUSTOM_COMMAND C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\close_code.h
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/close_code.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/close_code.h""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy_if_different "C:/Users/Khush Mehta/Desktop/Mercury Engine/third_party/SDL/include/close_code.h" "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/include/SDL2/close_code.h""
   DESC = Generating include/SDL2/close_code.h
   restat = 1
 
@@ -5036,7 +5063,7 @@ build third_party\SDL\include\SDL2\close_code.h | ${cmake_ninja_workdir}third_pa
 # Custom command for third_party\SDL\CMakeFiles\uninstall
 
 build third_party\SDL\CMakeFiles\uninstall | ${cmake_ninja_workdir}third_party\SDL\CMakeFiles\uninstall: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -P "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/cmake_uninstall.cmake""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\third_party\SDL" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -P "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/cmake_uninstall.cmake""
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -5152,7 +5179,7 @@ build C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\bin\engine.exe: CXX_EXECUTA
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = C:\VulkanSDK\1.3.268.0\Lib\vulkan-1.lib  third_party\fmt\fmtd.lib  third_party\vkbootstrap.lib  third_party\imgui.lib  third_party\fastgltf\fastgltf.lib  C:\VulkanSDK\1.3.268.0\Lib\vulkan-1.lib  third_party\SDL\SDL2d.lib  third_party\fastgltf\fastgltf_simdjson.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = src\CMakeFiles\engine.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\src" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E copy "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/SDL2d.dll" "C:/Users/Khush Mehta/Desktop/Mercury Engine/bin""
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\src" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E copy "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/SDL/SDL2d.dll" "C:/Users/Khush Mehta/Desktop/Mercury Engine/bin""
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = src\CMakeFiles\engine.dir\
   TARGET_FILE = "C:\Users\Khush Mehta\Desktop\Mercury Engine\bin\engine.exe"
@@ -5164,7 +5191,7 @@ build C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\bin\engine.exe: CXX_EXECUTA
 # Utility command for edit_cache
 
 build src\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\src" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\src" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -5175,7 +5202,7 @@ build src\edit_cache: phony src\CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build src\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\src" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Khush Mehta\Desktop\Mercury Engine" -B"C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\src" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Khush Mehta\Desktop\Mercury Engine" -B"C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -5193,7 +5220,7 @@ build src\list_install_components: phony
 # Utility command for install
 
 build src\CMakeFiles\install.util: CUSTOM_COMMAND src\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\src" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\src" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -5205,7 +5232,7 @@ build src\install: phony src\CMakeFiles\install.util
 # Utility command for install/local
 
 build src\CMakeFiles\install\local.util: CUSTOM_COMMAND src\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\src" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Khush Mehta\Desktop\Mercury Engine\cmake-build-debug\src" && "C:\Users\Khush Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -5311,14 +5338,14 @@ build third_party\fmt\all: phony third_party\fmt\fmtd.lib
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompiler.cmake.in C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompilerABI.c C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXCompiler.cmake.in C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXCompilerABI.cpp C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDependentOption.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCXXCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompileFeatures.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerABI.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineRCCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineSystem.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseArguments.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseLibraryArchitecture.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakePushCheckState.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCCompiler.cmake.in C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystem.cmake.in C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCXXCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCompilerCommon.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestRCCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCSourceRuns.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckIncludeFile.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckIncludeFiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckLanguage.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckLibraryExists.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckStructHasMember.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckSymbolExists.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CrayClang-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\HP-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\LCC-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OrangeC-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TI-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Tasking-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XL-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\FindGit.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageMessage.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPkgConfig.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\FindVulkan.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\GNUInstallDirs.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\FeatureTesting.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Determine-CXX.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\src\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\SDL2.spec.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\CheckCPUArchitecture.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\macros.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\sdlchecks.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\sdlfind.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\sdlplatform.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake_uninstall.cmake.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_config.h.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_revision.h.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\sdl2-config.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\sdl2.pc.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fastgltf\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fastgltf\cmake\add_source_directory.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fastgltf\cmake\compiler_flags.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\support\cmake\JoinPaths.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\support\cmake\fmt-config.cmake.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\support\cmake\fmt.pc.in CMakeCache.txt CMakeFiles\3.28.1\CMakeCCompiler.cmake CMakeFiles\3.28.1\CMakeCXXCompiler.cmake CMakeFiles\3.28.1\CMakeRCCompiler.cmake CMakeFiles\3.28.1\CMakeSystem.cmake third_party\SDL\SDL_config.h.intermediate
+build build.ninja: RERUN_CMAKE | C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDependentOption.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseArguments.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakePushCheckState.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCSourceRuns.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckIncludeFile.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckIncludeFiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckLanguage.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckLibraryExists.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckStructHasMember.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckSymbolExists.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindGit.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageMessage.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPkgConfig.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindVulkan.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\GNUInstallDirs.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\src\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\SDL2.spec.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\CheckCPUArchitecture.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\macros.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\sdlchecks.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\sdlfind.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\sdlplatform.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake_uninstall.cmake.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_config.h.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_revision.h.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\sdl2-config.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\sdl2.pc.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fastgltf\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fastgltf\cmake\add_source_directory.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fastgltf\cmake\compiler_flags.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\support\cmake\JoinPaths.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\support\cmake\fmt-config.cmake.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\support\cmake\fmt.pc.in CMakeCache.txt CMakeFiles\3.28.1\CMakeCCompiler.cmake CMakeFiles\3.28.1\CMakeCXXCompiler.cmake CMakeFiles\3.28.1\CMakeRCCompiler.cmake CMakeFiles\3.28.1\CMakeSystem.cmake third_party\SDL\SDL_config.h.intermediate
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompiler.cmake.in C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompilerABI.c C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXCompiler.cmake.in C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXCompilerABI.cpp C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDependentOption.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCXXCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompileFeatures.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerABI.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineRCCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineSystem.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseArguments.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseLibraryArchitecture.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakePushCheckState.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCCompiler.cmake.in C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystem.cmake.in C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCXXCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCompilerCommon.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestRCCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCSourceRuns.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckIncludeFile.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckIncludeFiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckLanguage.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckLibraryExists.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckStructHasMember.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckSymbolExists.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CrayClang-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\HP-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\LCC-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OrangeC-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TI-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Tasking-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XL-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\FindGit.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageMessage.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPkgConfig.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\FindVulkan.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\GNUInstallDirs.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\FeatureTesting.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Determine-CXX.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion$ Nova\bin\cmake\win\x64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\src\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\SDL2.spec.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\CheckCPUArchitecture.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\macros.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\sdlchecks.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\sdlfind.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\sdlplatform.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake_uninstall.cmake.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_config.h.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_revision.h.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\sdl2-config.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\sdl2.pc.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fastgltf\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fastgltf\cmake\add_source_directory.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fastgltf\cmake\compiler_flags.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\support\cmake\JoinPaths.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\support\cmake\fmt-config.cmake.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\support\cmake\fmt.pc.in CMakeCache.txt CMakeFiles\3.28.1\CMakeCCompiler.cmake CMakeFiles\3.28.1\CMakeCXXCompiler.cmake CMakeFiles\3.28.1\CMakeRCCompiler.cmake CMakeFiles\3.28.1\CMakeSystem.cmake third_party\SDL\SDL_config.h.intermediate: phony
+build C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDependentOption.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseArguments.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakePushCheckState.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCCompilerFlag.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCSourceRuns.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXCompilerFlag.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckIncludeFile.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckIncludeFiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckLanguage.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckLibraryExists.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckStructHasMember.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CheckSymbolExists.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindGit.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageMessage.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPkgConfig.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindVulkan.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\GNUInstallDirs.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckCompilerFlag.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckFlagCommonConfig.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake C$:\Users\Khush$ Mehta\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\src\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\SDL2.spec.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\CheckCPUArchitecture.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\macros.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\sdlchecks.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\sdlfind.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake\sdlplatform.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\cmake_uninstall.cmake.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_config.h.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\include\SDL_revision.h.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\sdl2-config.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\SDL\sdl2.pc.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fastgltf\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fastgltf\cmake\add_source_directory.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fastgltf\cmake\compiler_flags.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\CMakeLists.txt C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\support\cmake\JoinPaths.cmake C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\support\cmake\fmt-config.cmake.in C$:\Users\Khush$ Mehta\Desktop\Mercury$ Engine\third_party\fmt\support\cmake\fmt.pc.in CMakeCache.txt CMakeFiles\3.28.1\CMakeCCompiler.cmake CMakeFiles\3.28.1\CMakeCXXCompiler.cmake CMakeFiles\3.28.1\CMakeRCCompiler.cmake CMakeFiles\3.28.1\CMakeSystem.cmake third_party\SDL\SDL_config.h.intermediate: phony
 
 
 #############################################

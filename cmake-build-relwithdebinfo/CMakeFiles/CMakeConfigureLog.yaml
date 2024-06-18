@@ -4,16 +4,16 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
       - "CMakeLists.txt:6 (project)"
     message: |
       The system is: Windows - 10.0.22621 - AMD64
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:6 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -44,9 +44,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:6 (project)"
     message: |
       Detecting C compiler /showIncludes prefix:
@@ -57,9 +57,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:6 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -90,9 +90,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:6 (project)"
     message: |
       Detecting CXX compiler /showIncludes prefix:
@@ -103,14 +103,14 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:6 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-e6is3v"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-e6is3v"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-6v9buo"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-6v9buo"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -119,24 +119,24 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-e6is3v'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-6v9buo'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_9e1af
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_9e1af.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_9e1af.dir\\ /FS -c "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_9e1af.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9e1af.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_9e1af.exe /implib:cmTC_9e1af.lib /pdb:cmTC_9e1af.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_cc81a
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_cc81a.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_cc81a.dir\\ /FS -c "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_cc81a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cc81a.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_cc81a.exe /implib:cmTC_cc81a.lib /pdb:cmTC_cc81a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:6 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-ec10ww"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-ec10ww"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-zfjd58"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-zfjd58"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -145,24 +145,24 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-ec10ww'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-zfjd58'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_9bd0b
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_9bd0b.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_9bd0b.dir\\ /FS -c "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_9bd0b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9bd0b.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_9bd0b.exe /implib:cmTC_9bd0b.lib /pdb:cmTC_9bd0b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_754b1
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_754b1.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_754b1.dir\\ /FS -c "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_754b1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_754b1.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_754b1.exe /implib:cmTC_754b1.lib /pdb:cmTC_754b1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
       - "third_party/SDL/CMakeLists.txt:82 (check_symbol_exists)"
     checks:
       - "Looking for __GLIBC__"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-t1gwh8"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-t1gwh8"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-sp8ziq"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-sp8ziq"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -171,29 +171,29 @@ events:
       variable: "LIBC_IS_GLIBC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-t1gwh8'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-sp8ziq'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_895de
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_895de.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_895de.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-t1gwh8\\CheckSymbolExists.c"
-        FAILED: CMakeFiles/cmTC_895de.dir/CheckSymbolExists.c.obj 
-        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_895de.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_895de.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-t1gwh8\\CheckSymbolExists.c"
-        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-t1gwh8\\CheckSymbolExists.c(8): error C2065: '__GLIBC__': undeclared identifier
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_134ad
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_134ad.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_134ad.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-sp8ziq\\CheckSymbolExists.c"
+        FAILED: CMakeFiles/cmTC_134ad.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_134ad.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_134ad.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-sp8ziq\\CheckSymbolExists.c"
+        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-sp8ziq\\CheckSymbolExists.c(8): error C2065: '__GLIBC__': undeclared identifier
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "third_party/SDL/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
       - "third_party/SDL/cmake/CheckCPUArchitecture.cmake:28 (_internal_check_cpu_architecture)"
       - "third_party/SDL/CMakeLists.txt:139 (check_cpu_architecture)"
     checks:
       - "Performing Test CHECK_CPU_ARCHITECTURE_X86"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-rhv5rq"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-rhv5rq"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-bxzz64"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-bxzz64"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -203,30 +203,30 @@ events:
       variable: "CHECK_CPU_ARCHITECTURE_X86"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-rhv5rq'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-bxzz64'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_9629d
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_X86  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_9629d.dir\\src.c.obj /FdCMakeFiles\\cmTC_9629d.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-rhv5rq\\src.c"
-        FAILED: CMakeFiles/cmTC_9629d.dir/src.c.obj 
-        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_X86  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_9629d.dir\\src.c.obj /FdCMakeFiles\\cmTC_9629d.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-rhv5rq\\src.c"
-        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-rhv5rq\\src.c(8): error C2065: 'choke': undeclared identifier
-        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-rhv5rq\\src.c(8): error C2143: syntax error: missing ';' before '}'
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_52120
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_X86  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_52120.dir\\src.c.obj /FdCMakeFiles\\cmTC_52120.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-bxzz64\\src.c"
+        FAILED: CMakeFiles/cmTC_52120.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_X86  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_52120.dir\\src.c.obj /FdCMakeFiles\\cmTC_52120.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-bxzz64\\src.c"
+        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-bxzz64\\src.c(8): error C2065: 'choke': undeclared identifier
+        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-bxzz64\\src.c(8): error C2143: syntax error: missing ';' before '}'
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "third_party/SDL/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
       - "third_party/SDL/cmake/CheckCPUArchitecture.cmake:30 (_internal_check_cpu_architecture)"
       - "third_party/SDL/CMakeLists.txt:140 (check_cpu_architecture)"
     checks:
       - "Performing Test CHECK_CPU_ARCHITECTURE_X64"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-irl4s5"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-irl4s5"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-z4l1wq"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-z4l1wq"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -236,26 +236,26 @@ events:
       variable: "CHECK_CPU_ARCHITECTURE_X64"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-irl4s5'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-z4l1wq'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_cbdb0
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_X64  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_cbdb0.dir\\src.c.obj /FdCMakeFiles\\cmTC_cbdb0.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-irl4s5\\src.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_cbdb0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cbdb0.dir\\src.c.obj  /out:cmTC_cbdb0.exe /implib:cmTC_cbdb0.lib /pdb:cmTC_cbdb0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_fd4fd
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_X64  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_fd4fd.dir\\src.c.obj /FdCMakeFiles\\cmTC_fd4fd.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-z4l1wq\\src.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_fd4fd.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_fd4fd.dir\\src.c.obj  /out:cmTC_fd4fd.exe /implib:cmTC_fd4fd.lib /pdb:cmTC_fd4fd.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "third_party/SDL/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
       - "third_party/SDL/cmake/CheckCPUArchitecture.cmake:32 (_internal_check_cpu_architecture)"
       - "third_party/SDL/CMakeLists.txt:141 (check_cpu_architecture)"
     checks:
       - "Performing Test CHECK_CPU_ARCHITECTURE_ARM32"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-vei1g7"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-vei1g7"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-859k0t"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-859k0t"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -265,30 +265,30 @@ events:
       variable: "CHECK_CPU_ARCHITECTURE_ARM32"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-vei1g7'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-859k0t'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_d87f8
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_ARM32  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d87f8.dir\\src.c.obj /FdCMakeFiles\\cmTC_d87f8.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-vei1g7\\src.c"
-        FAILED: CMakeFiles/cmTC_d87f8.dir/src.c.obj 
-        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_ARM32  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d87f8.dir\\src.c.obj /FdCMakeFiles\\cmTC_d87f8.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-vei1g7\\src.c"
-        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-vei1g7\\src.c(8): error C2065: 'choke': undeclared identifier
-        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-vei1g7\\src.c(8): error C2143: syntax error: missing ';' before '}'
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_6146f
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_ARM32  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6146f.dir\\src.c.obj /FdCMakeFiles\\cmTC_6146f.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-859k0t\\src.c"
+        FAILED: CMakeFiles/cmTC_6146f.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_ARM32  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6146f.dir\\src.c.obj /FdCMakeFiles\\cmTC_6146f.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-859k0t\\src.c"
+        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-859k0t\\src.c(8): error C2065: 'choke': undeclared identifier
+        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-859k0t\\src.c(8): error C2143: syntax error: missing ';' before '}'
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "third_party/SDL/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
       - "third_party/SDL/cmake/CheckCPUArchitecture.cmake:34 (_internal_check_cpu_architecture)"
       - "third_party/SDL/CMakeLists.txt:142 (check_cpu_architecture)"
     checks:
       - "Performing Test CHECK_CPU_ARCHITECTURE_ARM64"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-ua4cno"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-ua4cno"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-jbh2lj"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-jbh2lj"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -298,30 +298,30 @@ events:
       variable: "CHECK_CPU_ARCHITECTURE_ARM64"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-ua4cno'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-jbh2lj'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_3c890
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_ARM64  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_3c890.dir\\src.c.obj /FdCMakeFiles\\cmTC_3c890.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-ua4cno\\src.c"
-        FAILED: CMakeFiles/cmTC_3c890.dir/src.c.obj 
-        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_ARM64  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_3c890.dir\\src.c.obj /FdCMakeFiles\\cmTC_3c890.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-ua4cno\\src.c"
-        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-ua4cno\\src.c(8): error C2065: 'choke': undeclared identifier
-        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-ua4cno\\src.c(8): error C2143: syntax error: missing ';' before '}'
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_f34a6
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_ARM64  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f34a6.dir\\src.c.obj /FdCMakeFiles\\cmTC_f34a6.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-jbh2lj\\src.c"
+        FAILED: CMakeFiles/cmTC_f34a6.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_ARM64  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f34a6.dir\\src.c.obj /FdCMakeFiles\\cmTC_f34a6.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-jbh2lj\\src.c"
+        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-jbh2lj\\src.c(8): error C2065: 'choke': undeclared identifier
+        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-jbh2lj\\src.c(8): error C2143: syntax error: missing ';' before '}'
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "third_party/SDL/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
       - "third_party/SDL/cmake/CheckCPUArchitecture.cmake:36 (_internal_check_cpu_architecture)"
       - "third_party/SDL/CMakeLists.txt:143 (check_cpu_architecture)"
     checks:
       - "Performing Test CHECK_CPU_ARCHITECTURE_LOONGARCH64"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-tsslwv"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-tsslwv"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-70tyqo"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-70tyqo"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -331,27 +331,27 @@ events:
       variable: "CHECK_CPU_ARCHITECTURE_LOONGARCH64"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-tsslwv'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-70tyqo'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_0bf12
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_LOONGARCH64  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0bf12.dir\\src.c.obj /FdCMakeFiles\\cmTC_0bf12.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-tsslwv\\src.c"
-        FAILED: CMakeFiles/cmTC_0bf12.dir/src.c.obj 
-        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_LOONGARCH64  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0bf12.dir\\src.c.obj /FdCMakeFiles\\cmTC_0bf12.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-tsslwv\\src.c"
-        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-tsslwv\\src.c(8): error C2065: 'choke': undeclared identifier
-        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-tsslwv\\src.c(8): error C2143: syntax error: missing ';' before '}'
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_d9413
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_LOONGARCH64  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d9413.dir\\src.c.obj /FdCMakeFiles\\cmTC_d9413.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-70tyqo\\src.c"
+        FAILED: CMakeFiles/cmTC_d9413.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCHECK_CPU_ARCHITECTURE_LOONGARCH64  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d9413.dir\\src.c.obj /FdCMakeFiles\\cmTC_d9413.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-70tyqo\\src.c"
+        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-70tyqo\\src.c(8): error C2065: 'choke': undeclared identifier
+        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-70tyqo\\src.c(8): error C2143: syntax error: missing ';' before '}'
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "third_party/SDL/CMakeLists.txt:974 (check_include_file)"
     checks:
       - "Looking for immintrin.h"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-zw17gs"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-zw17gs"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-ya56pb"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-ya56pb"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -360,23 +360,23 @@ events:
       variable: "HAVE_IMMINTRIN_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-zw17gs'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-ya56pb'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_0f152
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0f152.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_0f152.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-zw17gs\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0f152.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0f152.dir\\CheckIncludeFile.c.obj  /out:cmTC_0f152.exe /implib:cmTC_0f152.lib /pdb:cmTC_0f152.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_2d489
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2d489.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_2d489.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-ya56pb\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2d489.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2d489.dir\\CheckIncludeFile.c.obj  /out:cmTC_2d489.exe /implib:cmTC_2d489.lib /pdb:cmTC_2d489.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "third_party/SDL/CMakeLists.txt:1124 (check_include_file)"
     checks:
       - "Looking for stdint.h"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-5heuvy"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-5heuvy"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-vqhqy8"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-vqhqy8"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -385,24 +385,24 @@ events:
       variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-5heuvy'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-vqhqy8'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_e92d7
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e92d7.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_e92d7.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-5heuvy\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e92d7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e92d7.dir\\CheckIncludeFile.c.obj  /out:cmTC_e92d7.exe /implib:cmTC_e92d7.lib /pdb:cmTC_e92d7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_b3bb3
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b3bb3.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_b3bb3.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-vqhqy8\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b3bb3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b3bb3.dir\\CheckIncludeFile.c.obj  /out:cmTC_b3bb3.exe /implib:cmTC_b3bb3.lib /pdb:cmTC_b3bb3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "third_party/SDL/CMakeLists.txt:1731 (check_c_source_compiles)"
     checks:
       - "Performing Test HAVE_WIN32_CC"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-a80i1q"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-a80i1q"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-id4vib"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-id4vib"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -412,23 +412,23 @@ events:
       variable: "HAVE_WIN32_CC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-a80i1q'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-id4vib'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_45c48
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_WIN32_CC  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_45c48.dir\\src.c.obj /FdCMakeFiles\\cmTC_45c48.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-a80i1q\\src.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_45c48.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_45c48.dir\\src.c.obj  /out:cmTC_45c48.exe /implib:cmTC_45c48.lib /pdb:cmTC_45c48.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_d1f99
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_WIN32_CC  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_d1f99.dir\\src.c.obj /FdCMakeFiles\\cmTC_d1f99.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-id4vib\\src.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d1f99.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d1f99.dir\\src.c.obj  /out:cmTC_d1f99.exe /implib:cmTC_d1f99.lib /pdb:cmTC_d1f99.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "third_party/SDL/CMakeLists.txt:1773 (check_include_file)"
     checks:
       - "Looking for d3d9.h"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-5v1as3"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-5v1as3"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-7p2jvn"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-7p2jvn"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -437,23 +437,23 @@ events:
       variable: "HAVE_D3D_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-5v1as3'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-7p2jvn'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_131fa
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_131fa.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_131fa.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-5v1as3\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_131fa.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_131fa.dir\\CheckIncludeFile.c.obj  /out:cmTC_131fa.exe /implib:cmTC_131fa.lib /pdb:cmTC_131fa.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_9871a
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_9871a.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_9871a.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-7p2jvn\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_9871a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9871a.dir\\CheckIncludeFile.c.obj  /out:cmTC_9871a.exe /implib:cmTC_9871a.lib /pdb:cmTC_9871a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "third_party/SDL/CMakeLists.txt:1774 (check_include_file)"
     checks:
       - "Looking for d3d11_1.h"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-ufd6yy"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-ufd6yy"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-y93oy8"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-y93oy8"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -462,24 +462,24 @@ events:
       variable: "HAVE_D3D11_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-ufd6yy'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-y93oy8'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_cc745
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_cc745.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_cc745.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-ufd6yy\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_cc745.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cc745.dir\\CheckIncludeFile.c.obj  /out:cmTC_cc745.exe /implib:cmTC_cc745.lib /pdb:cmTC_cc745.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_d55ab
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d55ab.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_d55ab.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-y93oy8\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d55ab.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d55ab.dir\\CheckIncludeFile.c.obj  /out:cmTC_d55ab.exe /implib:cmTC_d55ab.lib /pdb:cmTC_d55ab.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "third_party/SDL/CMakeLists.txt:1775 (check_c_source_compiles)"
     checks:
       - "Performing Test HAVE_D3D12_H"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-nv7gvi"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-nv7gvi"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-de1jky"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-de1jky"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -489,23 +489,23 @@ events:
       variable: "HAVE_D3D12_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-nv7gvi'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-de1jky'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_ccff1
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_D3D12_H  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_ccff1.dir\\src.c.obj /FdCMakeFiles\\cmTC_ccff1.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-nv7gvi\\src.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ccff1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ccff1.dir\\src.c.obj  /out:cmTC_ccff1.exe /implib:cmTC_ccff1.lib /pdb:cmTC_ccff1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_113f7
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_D3D12_H  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_113f7.dir\\src.c.obj /FdCMakeFiles\\cmTC_113f7.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-de1jky\\src.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_113f7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_113f7.dir\\src.c.obj  /out:cmTC_113f7.exe /implib:cmTC_113f7.lib /pdb:cmTC_113f7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "third_party/SDL/CMakeLists.txt:1783 (check_include_file)"
     checks:
       - "Looking for ddraw.h"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-o7u8m1"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-o7u8m1"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-qpniwf"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-qpniwf"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -514,23 +514,23 @@ events:
       variable: "HAVE_DDRAW_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-o7u8m1'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-qpniwf'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_ceac6
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ceac6.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_ceac6.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-o7u8m1\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ceac6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ceac6.dir\\CheckIncludeFile.c.obj  /out:cmTC_ceac6.exe /implib:cmTC_ceac6.lib /pdb:cmTC_ceac6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_6fc8c
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6fc8c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_6fc8c.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-qpniwf\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6fc8c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6fc8c.dir\\CheckIncludeFile.c.obj  /out:cmTC_6fc8c.exe /implib:cmTC_6fc8c.lib /pdb:cmTC_6fc8c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "third_party/SDL/CMakeLists.txt:1784 (check_include_file)"
     checks:
       - "Looking for dsound.h"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-b9oz73"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-b9oz73"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-u7oq2g"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-u7oq2g"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -539,23 +539,23 @@ events:
       variable: "HAVE_DSOUND_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-b9oz73'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-u7oq2g'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_2b504
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2b504.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_2b504.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-b9oz73\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2b504.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2b504.dir\\CheckIncludeFile.c.obj  /out:cmTC_2b504.exe /implib:cmTC_2b504.lib /pdb:cmTC_2b504.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_17b2c
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_17b2c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_17b2c.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-u7oq2g\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_17b2c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_17b2c.dir\\CheckIncludeFile.c.obj  /out:cmTC_17b2c.exe /implib:cmTC_17b2c.lib /pdb:cmTC_17b2c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "third_party/SDL/CMakeLists.txt:1785 (check_include_file)"
     checks:
       - "Looking for dinput.h"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-ypsbcd"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-ypsbcd"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-bfy017"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-bfy017"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -564,24 +564,24 @@ events:
       variable: "HAVE_DINPUT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-ypsbcd'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-bfy017'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_f0499
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f0499.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_f0499.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-ypsbcd\\CheckIncludeFile.c"
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_83b73
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_83b73.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_83b73.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-bfy017\\CheckIncludeFile.c"
         C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f0499.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f0499.dir\\CheckIncludeFile.c.obj  /out:cmTC_f0499.exe /implib:cmTC_f0499.lib /pdb:cmTC_f0499.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_83b73.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_83b73.dir\\CheckIncludeFile.c.obj  /out:cmTC_83b73.exe /implib:cmTC_83b73.lib /pdb:cmTC_83b73.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "third_party/SDL/CMakeLists.txt:1789 (check_include_file)"
     checks:
       - "Looking for dxgi.h"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-0d56on"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-0d56on"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-x3e2xl"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-x3e2xl"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -590,24 +590,24 @@ events:
       variable: "HAVE_DXGI_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-0d56on'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-x3e2xl'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_b134e
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b134e.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_b134e.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-0d56on\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b134e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b134e.dir\\CheckIncludeFile.c.obj  /out:cmTC_b134e.exe /implib:cmTC_b134e.lib /pdb:cmTC_b134e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_2c76b
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2c76b.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_2c76b.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-x3e2xl\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2c76b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2c76b.dir\\CheckIncludeFile.c.obj  /out:cmTC_2c76b.exe /implib:cmTC_2c76b.lib /pdb:cmTC_2c76b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "third_party/SDL/CMakeLists.txt:1803 (check_c_source_compiles)"
     checks:
       - "Performing Test HAVE_XINPUT_H"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-66yful"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-66yful"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-vhv4sn"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-vhv4sn"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -617,24 +617,24 @@ events:
       variable: "HAVE_XINPUT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-66yful'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-vhv4sn'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_5edec
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_H  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_5edec.dir\\src.c.obj /FdCMakeFiles\\cmTC_5edec.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-66yful\\src.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5edec.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5edec.dir\\src.c.obj  /out:cmTC_5edec.exe /implib:cmTC_5edec.lib /pdb:cmTC_5edec.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_168ae
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_H  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_168ae.dir\\src.c.obj /FdCMakeFiles\\cmTC_168ae.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-vhv4sn\\src.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_168ae.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_168ae.dir\\src.c.obj  /out:cmTC_168ae.exe /implib:cmTC_168ae.lib /pdb:cmTC_168ae.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "third_party/SDL/CMakeLists.txt:1807 (check_c_source_compiles)"
     checks:
       - "Performing Test HAVE_XINPUT_GAMEPAD_EX"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-c1gkxt"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-c1gkxt"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-kpl6bk"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-kpl6bk"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -644,28 +644,28 @@ events:
       variable: "HAVE_XINPUT_GAMEPAD_EX"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-c1gkxt'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-kpl6bk'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_c5778
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_GAMEPAD_EX  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_c5778.dir\\src.c.obj /FdCMakeFiles\\cmTC_c5778.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-c1gkxt\\src.c"
-        FAILED: CMakeFiles/cmTC_c5778.dir/src.c.obj 
-        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_GAMEPAD_EX  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_c5778.dir\\src.c.obj /FdCMakeFiles\\cmTC_c5778.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-c1gkxt\\src.c"
-        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-c1gkxt\\src.c(4): error C2061: syntax error: identifier 'x1'
-        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-c1gkxt\\src.c(4): error C2059: syntax error: ';'
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_eb852
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_GAMEPAD_EX  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_eb852.dir\\src.c.obj /FdCMakeFiles\\cmTC_eb852.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-kpl6bk\\src.c"
+        FAILED: CMakeFiles/cmTC_eb852.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_GAMEPAD_EX  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_eb852.dir\\src.c.obj /FdCMakeFiles\\cmTC_eb852.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-kpl6bk\\src.c"
+        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-kpl6bk\\src.c(4): error C2061: syntax error: identifier 'x1'
+        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-kpl6bk\\src.c(4): error C2059: syntax error: ';'
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "third_party/SDL/CMakeLists.txt:1812 (check_c_source_compiles)"
     checks:
       - "Performing Test HAVE_XINPUT_STATE_EX"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-4etlxl"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-4etlxl"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-rnbq0g"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-rnbq0g"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -675,28 +675,28 @@ events:
       variable: "HAVE_XINPUT_STATE_EX"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-4etlxl'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-rnbq0g'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_ce523
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_STATE_EX  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_ce523.dir\\src.c.obj /FdCMakeFiles\\cmTC_ce523.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-4etlxl\\src.c"
-        FAILED: CMakeFiles/cmTC_ce523.dir/src.c.obj 
-        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_STATE_EX  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_ce523.dir\\src.c.obj /FdCMakeFiles\\cmTC_ce523.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-4etlxl\\src.c"
-        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-4etlxl\\src.c(4): error C2061: syntax error: identifier 's1'
-        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-4etlxl\\src.c(4): error C2059: syntax error: ';'
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_185c3
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_STATE_EX  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_185c3.dir\\src.c.obj /FdCMakeFiles\\cmTC_185c3.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-rnbq0g\\src.c"
+        FAILED: CMakeFiles/cmTC_185c3.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_STATE_EX  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_185c3.dir\\src.c.obj /FdCMakeFiles\\cmTC_185c3.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-rnbq0g\\src.c"
+        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-rnbq0g\\src.c(4): error C2061: syntax error: identifier 's1'
+        C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-rnbq0g\\src.c(4): error C2059: syntax error: ';'
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "third_party/SDL/CMakeLists.txt:1817 (check_c_source_compiles)"
     checks:
       - "Performing Test HAVE_WINDOWS_GAMING_INPUT_H"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-t1jqkx"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-t1jqkx"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-3vgskx"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-3vgskx"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
@@ -706,23 +706,23 @@ events:
       variable: "HAVE_WINDOWS_GAMING_INPUT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-t1jqkx'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-3vgskx'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_4dc05
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_WINDOWS_GAMING_INPUT_H  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_4dc05.dir\\src.c.obj /FdCMakeFiles\\cmTC_4dc05.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-t1jqkx\\src.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4dc05.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4dc05.dir\\src.c.obj  /out:cmTC_4dc05.exe /implib:cmTC_4dc05.lib /pdb:cmTC_4dc05.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_9b27e
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_WINDOWS_GAMING_INPUT_H  /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /showIncludes /FoCMakeFiles\\cmTC_9b27e.dir\\src.c.obj /FdCMakeFiles\\cmTC_9b27e.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-3vgskx\\src.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_9b27e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9b27e.dir\\src.c.obj  /out:cmTC_9b27e.exe /implib:cmTC_9b27e.lib /pdb:cmTC_9b27e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "third_party/SDL/CMakeLists.txt:1825 (check_include_file)"
     checks:
       - "Looking for tpcshrd.h"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-p3es1t"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-p3es1t"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-qq6hj4"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-qq6hj4"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -731,23 +731,23 @@ events:
       variable: "HAVE_TPCSHRD_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-p3es1t'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-qq6hj4'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_1b81e
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1b81e.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_1b81e.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-p3es1t\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1b81e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1b81e.dir\\CheckIncludeFile.c.obj  /out:cmTC_1b81e.exe /implib:cmTC_1b81e.lib /pdb:cmTC_1b81e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_0fda6
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0fda6.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_0fda6.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-qq6hj4\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0fda6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0fda6.dir\\CheckIncludeFile.c.obj  /out:cmTC_0fda6.exe /implib:cmTC_0fda6.lib /pdb:cmTC_0fda6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "third_party/SDL/CMakeLists.txt:1826 (check_include_file)"
     checks:
       - "Looking for roapi.h"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-qxctsy"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-qxctsy"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-vcfc9c"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-vcfc9c"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -756,23 +756,23 @@ events:
       variable: "HAVE_ROAPI_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-qxctsy'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-vcfc9c'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_e6132
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e6132.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_e6132.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-qxctsy\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e6132.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e6132.dir\\CheckIncludeFile.c.obj  /out:cmTC_e6132.exe /implib:cmTC_e6132.lib /pdb:cmTC_e6132.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_67461
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_67461.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_67461.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-vcfc9c\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_67461.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_67461.dir\\CheckIncludeFile.c.obj  /out:cmTC_67461.exe /implib:cmTC_67461.lib /pdb:cmTC_67461.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "third_party/SDL/CMakeLists.txt:1827 (check_include_file)"
     checks:
       - "Looking for mmdeviceapi.h"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-xj9im0"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-xj9im0"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-fy424z"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-fy424z"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -781,23 +781,23 @@ events:
       variable: "HAVE_MMDEVICEAPI_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-xj9im0'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-fy424z'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_a89fb
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a89fb.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_a89fb.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-xj9im0\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a89fb.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a89fb.dir\\CheckIncludeFile.c.obj  /out:cmTC_a89fb.exe /implib:cmTC_a89fb.lib /pdb:cmTC_a89fb.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_c6d7f
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c6d7f.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_c6d7f.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-fy424z\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_c6d7f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c6d7f.dir\\CheckIncludeFile.c.obj  /out:cmTC_c6d7f.exe /implib:cmTC_c6d7f.lib /pdb:cmTC_c6d7f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "third_party/SDL/CMakeLists.txt:1828 (check_include_file)"
     checks:
       - "Looking for audioclient.h"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-r8f6k9"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-r8f6k9"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-0yj89e"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-0yj89e"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -806,23 +806,23 @@ events:
       variable: "HAVE_AUDIOCLIENT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-r8f6k9'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-0yj89e'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_5d7fd
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5d7fd.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_5d7fd.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-r8f6k9\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5d7fd.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5d7fd.dir\\CheckIncludeFile.c.obj  /out:cmTC_5d7fd.exe /implib:cmTC_5d7fd.lib /pdb:cmTC_5d7fd.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_1dd31
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1dd31.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_1dd31.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-0yj89e\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1dd31.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1dd31.dir\\CheckIncludeFile.c.obj  /out:cmTC_1dd31.exe /implib:cmTC_1dd31.lib /pdb:cmTC_1dd31.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "third_party/SDL/CMakeLists.txt:1829 (check_include_file)"
     checks:
       - "Looking for sensorsapi.h"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-tmkqdu"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-tmkqdu"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-qnscdt"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-qnscdt"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -831,23 +831,23 @@ events:
       variable: "HAVE_SENSORSAPI_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-tmkqdu'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-qnscdt'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_a4481
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a4481.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_a4481.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-tmkqdu\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a4481.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a4481.dir\\CheckIncludeFile.c.obj  /out:cmTC_a4481.exe /implib:cmTC_a4481.lib /pdb:cmTC_a4481.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_f253d
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f253d.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_f253d.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-qnscdt\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f253d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f253d.dir\\CheckIncludeFile.c.obj  /out:cmTC_f253d.exe /implib:cmTC_f253d.lib /pdb:cmTC_f253d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "third_party/SDL/CMakeLists.txt:1830 (check_include_file)"
     checks:
       - "Looking for shellscalingapi.h"
     directories:
-      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-v195es"
-      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-v195es"
+      source: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-797bxw"
+      binary: "C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-797bxw"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -856,11 +856,11 @@ events:
       variable: "HAVE_SHELLSCALINGAPI_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-v195es'
+        Change Dir: 'C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-relwithdebinfo/CMakeFiles/CMakeScratch/TryCompile-797bxw'
         
-        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -v cmTC_48077
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_48077.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_48077.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-v195es\\CheckIncludeFile.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion Nova\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_48077.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_48077.dir\\CheckIncludeFile.c.obj  /out:cmTC_48077.exe /implib:cmTC_48077.lib /pdb:cmTC_48077.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" -v cmTC_deddd
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  -D_GNU_SOURCE=1 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_deddd.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_deddd.dir\\ /FS -c "C:\\Users\\Khush Mehta\\Desktop\\Mercury Engine\\cmake-build-relwithdebinfo\\CMakeFiles\\CMakeScratch\\TryCompile-797bxw\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Users\\Khush Mehta\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_deddd.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_deddd.dir\\CheckIncludeFile.c.obj  /out:cmTC_deddd.exe /implib:cmTC_deddd.lib /pdb:cmTC_deddd.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
 ...

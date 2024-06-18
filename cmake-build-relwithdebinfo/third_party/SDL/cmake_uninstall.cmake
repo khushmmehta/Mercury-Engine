@@ -7,7 +7,7 @@ string(REGEX REPLACE "\n" ";" files "${files}")
 foreach (file ${files})
     message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")
     execute_process(
-        COMMAND C:/Users/Khush Mehta/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/bin/cmake.exe -E remove "$ENV{DESTDIR}${file}"
+        COMMAND C:/Users/Khush Mehta/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E remove "$ENV{DESTDIR}${file}"
         OUTPUT_VARIABLE rm_out
         RESULT_VARIABLE rm_retval
     )
