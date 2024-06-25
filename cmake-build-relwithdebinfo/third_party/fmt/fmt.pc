@@ -1,5 +1,5 @@
-prefix=C:/Program Files (x86)/vulkan_guide
-exec_prefix=C:/Program Files (x86)/vulkan_guide
+prefix=C:/Program Files (x86)/Mercury Engine
+exec_prefix=C:/Program Files (x86)/Mercury Engine
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
 

@@ -1,0 +1,148 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"fastgltf/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 113,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"fastgltf/deps/simdjson/simdjson.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"fastgltf/fastgltf_simdjson.lib"
+			],
+			"targetId" : "fastgltf_simdjson::@bacdaad44644dfd8eaeb",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/fastgltf",
+			"exportName" : "fastgltf_simdjson-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "fastgltf_simdjson::@bacdaad44644dfd8eaeb",
+					"index" : 5
+				}
+			],
+			"paths" : 
+			[
+				"fastgltf/CMakeFiles/Export/14b504216a8c2b5661a6a7c88f3023ae/fastgltf_simdjsonTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/fastgltf",
+			"paths" : 
+			[
+				"fastgltf/include/fastgltf/base64.hpp",
+				"fastgltf/include/fastgltf/glm_element_traits.hpp",
+				"fastgltf/include/fastgltf/parser.hpp",
+				"fastgltf/include/fastgltf/tools.hpp",
+				"fastgltf/include/fastgltf/types.hpp",
+				"fastgltf/include/fastgltf/util.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"fastgltf/fastgltf.lib"
+			],
+			"targetId" : "fastgltf::@bacdaad44644dfd8eaeb",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/fastgltf",
+			"exportName" : "fastgltf-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "fastgltf::@bacdaad44644dfd8eaeb",
+					"index" : 4
+				}
+			],
+			"paths" : 
+			[
+				"fastgltf/CMakeFiles/Export/14b504216a8c2b5661a6a7c88f3023ae/fastgltfConfig.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "fastgltf",
+		"source" : "fastgltf"
+	}
+}

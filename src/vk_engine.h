@@ -18,7 +18,7 @@ struct DeletionQueue
 
 	void flush()
 	{
-		for (auto it = deletors.rbegin(); it != deletors.rend(); it++) (*it)();
+		for (auto it = deletors.rbegin(); it != deletors.rend(); ++it) (*it)();
 		deletors.clear();
 	}
 };
@@ -76,6 +76,8 @@ public:
 	VkDevice _device{};
 	VkSurfaceKHR _surface{};
 
+	PFN_vkSetDebugUtilsObjectNameEXT vkSetDebugUtilsObjectName;
+
 	VkSwapchainKHR _swapchain{};
 	VkFormat _swapchainImageFormat{};
 
@@ -118,10 +120,9 @@ public:
 	VkPipelineLayout _trianglePipelineLayout;
 	VkPipeline _trianglePipeline;
 
-	GPUMeshBuffers uploadMesh(std::span<uint32_t> indices, std::span<Vertex> vertices);
-
 	VkPipelineLayout _meshPipelineLayout;
-	VkPipeline  _meshPipeline;
+	VkPipeline _meshPipeline;
+
 	GPUMeshBuffers rectangle;
 
 private:
@@ -129,6 +130,8 @@ private:
 	void init_swapchain();
 	void init_commands();
 	void init_sync_structures();
+
+	void set_object_name(VkDevice device, uint64_t objectHandle, VkObjectType objectType, const char* name);
 
 	void create_swapchain(uint32_t width, uint32_t height);
 	void destroy_swapchain() const;
@@ -149,6 +152,8 @@ private:
 
 	AllocatedBuffer create_buffer(size_t allocSize, VkBufferUsageFlags usage, VmaMemoryUsage memoryUsage);
 	void destroy_buffer(const AllocatedBuffer& buffer);
+
+	GPUMeshBuffers uploadMesh(std::span<uint32_t> indices, std::span<Vertex> vertices);
 
 	void init_mesh_pipeline();
 

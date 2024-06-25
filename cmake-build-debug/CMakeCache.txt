@@ -127,7 +127,7 @@ CMAKE_INSTALL_MANDIR:PATH=
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/vulkan_guide
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Mercury Engine
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -290,8 +290,8 @@ FASTGLTF_USE_CUSTOM_SMALLVECTOR:BOOL=OFF
 FMT_BINARY_DIR:STATIC=C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/third_party/fmt
 
 //Installation directory for cmake files, a relative path that
-// will be joined with C:/Program Files (x86)/vulkan_guide or an
-// absolute path.
+// will be joined with C:/Program Files (x86)/Mercury Engine or
+// an absolute path.
 FMT_CMAKE_DIR:STRING=lib/cmake/fmt
 
 //Generate the cuda-test target.
@@ -307,8 +307,8 @@ FMT_DOC:BOOL=OFF
 FMT_FUZZ:BOOL=OFF
 
 //Installation directory for include files, a relative path that
-// will be joined with C:/Program Files (x86)/vulkan_guide or an
-// absolute path.
+// will be joined with C:/Program Files (x86)/Mercury Engine or
+// an absolute path.
 FMT_INC_DIR:STRING=include
 
 //Generate the install target.
@@ -318,7 +318,7 @@ FMT_INSTALL:BOOL=ON
 FMT_IS_TOP_LEVEL:STATIC=OFF
 
 //Installation directory for libraries, a relative path that will
-// be joined to C:/Program Files (x86)/vulkan_guide or an absolute
+// be joined to C:/Program Files (x86)/Mercury Engine or an absolute
 // path.
 FMT_LIB_DIR:STRING=lib
 
@@ -332,8 +332,8 @@ FMT_OS:BOOL=ON
 FMT_PEDANTIC:BOOL=OFF
 
 //Installation directory for pkgconfig (.pc) files, a relative
-// path that will be joined with C:/Program Files (x86)/vulkan_guide
-// or an absolute path.
+// path that will be joined with C:/Program Files (x86)/Mercury
+// Engine or an absolute path.
 FMT_PKGCONFIG_DIR:STRING=lib/pkgconfig
 
 //Value Computed by CMake
@@ -352,16 +352,16 @@ FMT_WERROR:BOOL=OFF
 GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
 
 //Path to a program.
-GLSL_VALIDATOR:FILEPATH=C:/VulkanSDK/1.3.268.0/Bin/glslangValidator.exe
+GLSL_VALIDATOR:FILEPATH=C:/VulkanSDK/1.3.283.0/Bin/glslangValidator.exe
 
 //Value Computed by CMake
-Mercury Engine_BINARY_DIR:STATIC=C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug
+Mercury Engine_BINARY_DIR:STATIC=C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug/src
 
 //Value Computed by CMake
-Mercury Engine_IS_TOP_LEVEL:STATIC=ON
+Mercury Engine_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-Mercury Engine_SOURCE_DIR:STATIC=C:/Users/Khush Mehta/Desktop/Mercury Engine
+Mercury Engine_SOURCE_DIR:STATIC=C:/Users/Khush Mehta/Desktop/Mercury Engine/src
 
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
@@ -640,16 +640,16 @@ SDL_X11:BOOL=OFF
 SDL_XINPUT:BOOL=ON
 
 //Path to a program.
-Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=C:/VulkanSDK/1.3.268.0/Bin/glslangValidator.exe
+Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=C:/VulkanSDK/1.3.283.0/Bin/glslangValidator.exe
 
 //Path to a program.
-Vulkan_GLSLC_EXECUTABLE:FILEPATH=C:/VulkanSDK/1.3.268.0/Bin/glslc.exe
+Vulkan_GLSLC_EXECUTABLE:FILEPATH=C:/VulkanSDK/1.3.283.0/Bin/glslc.exe
 
 //Path to a file.
-Vulkan_INCLUDE_DIR:PATH=C:/VulkanSDK/1.3.268.0/Include
+Vulkan_INCLUDE_DIR:PATH=C:/VulkanSDK/1.3.283.0/Include
 
 //Path to a library.
-Vulkan_LIBRARY:FILEPATH=C:/VulkanSDK/1.3.268.0/Lib/vulkan-1.lib
+Vulkan_LIBRARY:FILEPATH=C:/VulkanSDK/1.3.283.0/Lib/vulkan-1.lib
 
 //Path to a program.
 WINDRES:FILEPATH=WINDRES-NOTFOUND
@@ -668,15 +668,6 @@ imgui_LIB_DEPENDS:STATIC=general;Vulkan::Vulkan;general;SDL2::SDL2;
 
 //Dependencies for the target
 vkbootstrap_LIB_DEPENDS:STATIC=general;Vulkan::Vulkan;
-
-//Value Computed by CMake
-vulkan_guide_BINARY_DIR:STATIC=C:/Users/Khush Mehta/Desktop/Mercury Engine/cmake-build-debug
-
-//Value Computed by CMake
-vulkan_guide_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-vulkan_guide_SOURCE_DIR:STATIC=C:/Users/Khush Mehta/Desktop/Mercury Engine
 
 
 ########################
@@ -858,9 +849,9 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Git
-FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[C:/Program Files/Git/cmd/git.exe][v2.41.0.windows.1()]
+FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[C:/Program Files/Git/cmd/git.exe][v2.45.1.windows.1()]
 //Details about finding Vulkan
-FIND_PACKAGE_MESSAGE_DETAILS_Vulkan:INTERNAL=[C:/VulkanSDK/1.3.268.0/Lib/vulkan-1.lib][C:/VulkanSDK/1.3.268.0/Include][cfound components: glslc glslangValidator ][v1.3.268()]
+FIND_PACKAGE_MESSAGE_DETAILS_Vulkan:INTERNAL=[C:/VulkanSDK/1.3.283.0/Lib/vulkan-1.lib][C:/VulkanSDK/1.3.283.0/Include][cfound components: glslc glslangValidator ][v1.3.283()]
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //Have include audioclient.h
@@ -920,5 +911,5 @@ Vulkan_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Vulkan_LIBRARY
 Vulkan_LIBRARY-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/vulkan_guide
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/Mercury Engine
 

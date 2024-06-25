@@ -52,7 +52,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 
     // Note: Choose fThreshhold in the range [0.99, 0.9999].
     // Higher values (i.e., closer to one) yield a sparser starfield.
-    float StarFieldThreshhold = 0.97;
+    float StarFieldThreshhold = 0.99;
 
     // Stars with a slow crawl.
     float xRate = 0.2;

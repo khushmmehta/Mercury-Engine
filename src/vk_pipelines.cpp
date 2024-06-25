@@ -86,7 +86,7 @@ VkPipeline PipelineBuilder::build_pipeline(VkDevice device)
     // connect the renderInfo to the pNext extension mechanism
     pipelineInfo.pNext = &_renderInfo;
 
-    pipelineInfo.stageCount = (uint32_t)_shaderStages.size();
+    pipelineInfo.stageCount = static_cast<uint32_t>(_shaderStages.size());
     pipelineInfo.pStages = _shaderStages.data();
     pipelineInfo.pVertexInputState = &_vertexInputInfo;
     pipelineInfo.pInputAssemblyState = &_inputAssembly;

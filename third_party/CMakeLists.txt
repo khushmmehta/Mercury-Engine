@@ -1,3 +1,7 @@
+cmake_minimum_required (VERSION 3.8)
+
+project ("Mercury Engine")
+
 find_package(Vulkan REQUIRED)
 
 add_library(vkbootstrap STATIC)

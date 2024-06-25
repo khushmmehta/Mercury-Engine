@@ -24,7 +24,11 @@
 #include "imgui_impl_sdl2.h"
 #include "imgui_impl_vulkan.h"
 
+#ifdef NDEBUG
 constexpr bool bUseValidationLayers = false;
+#else
+constexpr bool bUseValidationLayers = true;
+#endif
 
 MercuryEngine* loadedEngine = nullptr;
 
@@ -67,7 +71,19 @@ void MercuryEngine::init_vulkan()
 
     auto inst_ret = builder.set_app_name("Mercury Engine")
         .request_validation_layers(bUseValidationLayers)
-        .use_default_debug_messenger()
+        .set_debug_callback (
+        [] (VkDebugUtilsMessageSeverityFlagBitsEXT messageSeverity,
+                VkDebugUtilsMessageTypeFlagsEXT messageType,
+                const VkDebugUtilsMessengerCallbackDataEXT* pCallbackData,
+                void *pUserData)
+            -> VkBool32
+            {
+                auto severity = vkb::to_string_message_severity (messageSeverity);
+                auto type = vkb::to_string_message_type (messageType);
+                fmt::print("\n[{}: {}]\n{}\n", severity, type, pCallbackData->pMessage);
+                return VK_FALSE;
+            })
+        .enable_extension(VK_EXT_DEBUG_UTILS_EXTENSION_NAME)
         .require_api_version(1, 3, 0)
         .build();
 
@@ -75,6 +91,7 @@ void MercuryEngine::init_vulkan()
 
     _instance = vkb_inst.instance;
     _debug_messenger = vkb_inst.debug_messenger;
+    vkSetDebugUtilsObjectName = reinterpret_cast<PFN_vkSetDebugUtilsObjectNameEXT>(vkGetInstanceProcAddr(_instance, "vkSetDebugUtilsObjectNameEXT"));
 
     SDL_Vulkan_CreateSurface(_window, _instance, &_surface);
 
@@ -115,6 +132,19 @@ void MercuryEngine::init_vulkan()
     {
         vmaDestroyAllocator(_allocator);
     });
+}
+
+void MercuryEngine::set_object_name(VkDevice device, uint64_t objectHandle, VkObjectType objectType, const char *name)
+{
+    VkDebugUtilsObjectNameInfoEXT nameInfo = {};
+    nameInfo.sType = VK_STRUCTURE_TYPE_DEBUG_UTILS_OBJECT_NAME_INFO_EXT;
+    nameInfo.objectType = objectType;
+    nameInfo.objectHandle = objectHandle;
+    nameInfo.pObjectName = name;
+
+    VkResult result = vkSetDebugUtilsObjectName(device, &nameInfo);
+    if (result != VK_SUCCESS)
+        fmt::print("Error! could not create object debug name for {}", name);
 }
 
 void MercuryEngine::create_swapchain(uint32_t width, uint32_t height)
@@ -363,6 +393,12 @@ void MercuryEngine::init_descriptors()
     drawImageWrite.pImageInfo = &imgInfo;
 
     vkUpdateDescriptorSets(_device, 1, &drawImageWrite, 0, nullptr);
+
+    _mainDeletionQueue.push_function([&]()
+    {
+        globalDescriptorAllocator.destroy_pool(_device);
+        vkDestroyDescriptorSetLayout(_device, _drawImageDescriptorLayout, nullptr);
+    });
 }
 
 void MercuryEngine::init_pipelines()
@@ -421,7 +457,6 @@ void MercuryEngine::init_background_pipelines()
 
     VK_CHECK(vkCreateComputePipelines(_device, VK_NULL_HANDLE, 1, &computePipelineCreateInfo, nullptr, &gradient.pipeline));
 
-    ComputeEffect sky{};
     sky.layout = _gradientPipelineLayout;
     sky.name = "sky";
     sky.data = {};
@@ -435,6 +470,10 @@ void MercuryEngine::init_background_pipelines()
 
     vkDestroyShaderModule(_device, gradientShader, nullptr);
     vkDestroyShaderModule(_device, skyShader, nullptr);
+
+    set_object_name(_device, reinterpret_cast<uint64_t>(_gradientPipelineLayout), VK_OBJECT_TYPE_PIPELINE_LAYOUT, "Gradient Pipeline Layout");
+    set_object_name(_device, reinterpret_cast<uint64_t>(gradient.pipeline), VK_OBJECT_TYPE_PIPELINE, "Gradient Pipeline");
+    set_object_name(_device, reinterpret_cast<uint64_t>(sky.pipeline), VK_OBJECT_TYPE_PIPELINE, "Sky Pipeline");
 
     _mainDeletionQueue.push_function([&]()
     {
@@ -568,10 +607,65 @@ void MercuryEngine::init_triangle_pipeline()
     vkDestroyShaderModule(_device, triangleFragShader, nullptr);
     vkDestroyShaderModule(_device, triangleVertShader, nullptr);
 
+    set_object_name(_device, reinterpret_cast<uint64_t>(_trianglePipelineLayout), VK_OBJECT_TYPE_PIPELINE_LAYOUT, "Triangle Pipeline Layout");
+    set_object_name(_device, reinterpret_cast<uint64_t>(_trianglePipeline), VK_OBJECT_TYPE_PIPELINE, "Triangle Pipeline");
+
     _mainDeletionQueue.push_function([&]()
     {
         vkDestroyPipelineLayout(_device, _trianglePipelineLayout, nullptr);
         vkDestroyPipeline(_device, _trianglePipeline, nullptr);
+    });
+}
+
+void MercuryEngine::init_mesh_pipeline()
+{
+    VkShaderModule meshFragShader;
+    if (!vkutil::load_shader_module("../shaders/colored_triangle.frag.spv", _device, &meshFragShader))
+        fmt::print("Error when building the mesh fragment shader module!\n");
+    else fmt::print("Mesh fragment shader successfully loaded!\n");
+
+    VkShaderModule meshVertShader;
+    if (!vkutil::load_shader_module("../shaders/colored_triangle_mesh.vert.spv", _device, &meshVertShader))
+        fmt::print("Error when building the mesh vertex shader module!\n");
+    else fmt::print("Mesh vertex shader successfully loaded!\n");
+
+    VkPushConstantRange bufferRange{};
+    bufferRange.offset = 0;
+    bufferRange.size = sizeof(GPUDrawPushConstants);
+    bufferRange.stageFlags = VK_SHADER_STAGE_VERTEX_BIT;
+
+    VkPipelineLayoutCreateInfo pipeline_layout_info = vkinit::pipeline_layout_create_info();
+    pipeline_layout_info.pPushConstantRanges = &bufferRange;
+    pipeline_layout_info.pushConstantRangeCount = 1;
+
+    VK_CHECK(vkCreatePipelineLayout(_device, &pipeline_layout_info, nullptr, &_meshPipelineLayout));
+
+    PipelineBuilder pipelineBuilder;
+
+    pipelineBuilder._pipelineLayout = _meshPipelineLayout;
+    pipelineBuilder.set_shaders(meshVertShader, meshFragShader);
+    pipelineBuilder.set_input_topology(VK_PRIMITIVE_TOPOLOGY_TRIANGLE_LIST);
+    pipelineBuilder.set_polygon_mode(VK_POLYGON_MODE_FILL);
+    pipelineBuilder.set_cull_mode(VK_CULL_MODE_NONE, VK_FRONT_FACE_CLOCKWISE);
+    pipelineBuilder.set_multisampling_none();
+    pipelineBuilder.disable_blending();
+    pipelineBuilder.disable_depthtest();
+
+    pipelineBuilder.set_color_attachment_format(_drawImage.imageFormat);
+    pipelineBuilder.set_depth_format(VK_FORMAT_UNDEFINED);
+
+    _meshPipeline = pipelineBuilder.build_pipeline(_device);
+
+    vkDestroyShaderModule(_device, meshFragShader, nullptr);
+    vkDestroyShaderModule(_device, meshVertShader, nullptr);
+
+    set_object_name(_device, reinterpret_cast<uint64_t>(_meshPipelineLayout), VK_OBJECT_TYPE_PIPELINE_LAYOUT, "Mesh Pipeline Layout");
+    set_object_name(_device, reinterpret_cast<uint64_t>(_meshPipeline), VK_OBJECT_TYPE_PIPELINE, "Mesh Pipeline");
+
+    _mainDeletionQueue.push_function([&]()
+    {
+        vkDestroyPipelineLayout(_device, _meshPipelineLayout, nullptr);
+        vkDestroyPipeline(_device, _meshPipeline, nullptr);
     });
 }
 
@@ -582,7 +676,7 @@ void MercuryEngine::draw_geometry(VkCommandBuffer cmd)
     VkRenderingInfo renderInfo = vkinit::rendering_info(_drawExtent, &colorAttachment, nullptr);
     vkCmdBeginRendering(cmd, &renderInfo);
 
-    vkCmdBindPipeline(cmd, VK_PIPELINE_BIND_POINT_GRAPHICS, _trianglePipeline);
+    // vkCmdBindPipeline(cmd, VK_PIPELINE_BIND_POINT_GRAPHICS, _trianglePipeline);
 
     VkViewport viewPort = {};
     viewPort.x = 0;
@@ -596,19 +690,17 @@ void MercuryEngine::draw_geometry(VkCommandBuffer cmd)
 
     VkRect2D scissor = {};
 
-    scissor.offset.x = 0;
-    scissor.offset.y = 0;
-    scissor.extent.width = _drawExtent.width;
-    scissor.extent.height = _drawExtent.height;
+    scissor.offset = { 0, 0 };
+    scissor.extent = _drawExtent;
 
     vkCmdSetScissor(cmd, 0, 1, &scissor);
 
-    vkCmdDraw(cmd, 3, 1, 0, 0);
+    // vkCmdDraw(cmd, 3, 1, 0, 0);
 
     vkCmdBindPipeline(cmd, VK_PIPELINE_BIND_POINT_GRAPHICS, _meshPipeline);
 
-    GPUDrawPushConstants push_constants;
-    push_constants.worldMatrix = translate(glm::mat4(1.0f), glm::vec3(0.0f));
+    GPUDrawPushConstants push_constants{};
+    push_constants.worldMatrix = glm::mat4{ 1.0f };
     push_constants.vertexBuffer = rectangle.vertexBufferAddress;
 
     vkCmdPushConstants(cmd, _meshPipelineLayout, VK_SHADER_STAGE_VERTEX_BIT, 0, sizeof(GPUDrawPushConstants), &push_constants);
@@ -630,7 +722,6 @@ AllocatedBuffer MercuryEngine::create_buffer(size_t allocSize, VkBufferUsageFlag
     VmaAllocationCreateInfo vmaAllocInfo = {};
     vmaAllocInfo.usage = memoryUsage;
     vmaAllocInfo.flags = VMA_ALLOCATION_CREATE_MAPPED_BIT;
-
     AllocatedBuffer newBuffer;
 
     VK_CHECK(vmaCreateBuffer(_allocator, &bufferInfo, &vmaAllocInfo, &newBuffer.buffer, &newBuffer.allocation, &newBuffer.info));
@@ -643,26 +734,36 @@ void MercuryEngine::destroy_buffer(const AllocatedBuffer &buffer)
     vmaDestroyBuffer(_allocator, buffer.buffer, buffer.allocation);
 }
 
-GPUMeshBuffers MercuryEngine::uploadMesh(std::span<uint32_t> indices, std::span<Vertex> vertices)
+GPUMeshBuffers MercuryEngine::uploadMesh(const std::span<uint32_t> indices, const std::span<Vertex> vertices)
 {
     const size_t vertexBufferSize = vertices.size() * sizeof(Vertex);
     const size_t indexBufferSize = indices.size() * sizeof(uint32_t);
 
-    GPUMeshBuffers newSurface;
+    GPUMeshBuffers newSurface{};
 
-    newSurface.vertexBuffer = create_buffer(vertexBufferSize, VK_BUFFER_USAGE_STORAGE_BUFFER_BIT | VK_BUFFER_USAGE_TRANSFER_DST_BIT | VK_BUFFER_USAGE_SHADER_DEVICE_ADDRESS_BIT, VMA_MEMORY_USAGE_GPU_ONLY);
+    newSurface.vertexBuffer = create_buffer(vertexBufferSize,
+        VK_BUFFER_USAGE_STORAGE_BUFFER_BIT | VK_BUFFER_USAGE_TRANSFER_DST_BIT | VK_BUFFER_USAGE_SHADER_DEVICE_ADDRESS_BIT,
+        VMA_MEMORY_USAGE_GPU_ONLY);
 
-    VkBufferDeviceAddressInfo deviceAddressInfo{ .sType = VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO, .buffer = newSurface.vertexBuffer.buffer };
+    newSurface.indexBuffer = create_buffer(indexBufferSize,
+        VK_BUFFER_USAGE_INDEX_BUFFER_BIT | VK_BUFFER_USAGE_TRANSFER_DST_BIT,
+        VMA_MEMORY_USAGE_GPU_ONLY);
+
+    VkBufferDeviceAddressInfo deviceAddressInfo
+    {
+        .sType = VK_STRUCTURE_TYPE_BUFFER_DEVICE_ADDRESS_INFO,
+        .buffer = newSurface.vertexBuffer.buffer
+    };
+    deviceAddressInfo.pNext = nullptr;
+
     newSurface.vertexBufferAddress = vkGetBufferDeviceAddress(_device, &deviceAddressInfo);
 
-    newSurface.indexBuffer = create_buffer(indexBufferSize, VK_BUFFER_USAGE_INDEX_BUFFER_BIT | VK_BUFFER_USAGE_TRANSFER_DST_BIT, VMA_MEMORY_USAGE_GPU_ONLY);
-
-    AllocatedBuffer staging = create_buffer(vertexBufferSize + indexBufferSize, VK_BUFFER_USAGE_TRANSFER_SRC_BIT, VMA_MEMORY_USAGE_CPU_ONLY);
+    const AllocatedBuffer staging = create_buffer(vertexBufferSize + indexBufferSize, VK_BUFFER_USAGE_TRANSFER_SRC_BIT, VMA_MEMORY_USAGE_CPU_ONLY);
 
     void* data = staging.allocation->GetMappedData();
 
     memcpy(data, vertices.data(), vertexBufferSize);
-    memcpy(static_cast<char*>(data) + vertexBufferSize, indices.data(), indexBufferSize);
+    memcpy(static_cast<char *>(data) + vertexBufferSize, indices.data(), indexBufferSize);
 
     immediate_submit([&](VkCommandBuffer cmd)
     {
@@ -678,7 +779,7 @@ GPUMeshBuffers MercuryEngine::uploadMesh(std::span<uint32_t> indices, std::span<
         indexCopy.srcOffset = vertexBufferSize;
         indexCopy.size = indexBufferSize;
 
-        vkCmdCopyBuffer(cmd, staging.buffer, newSurface.vertexBuffer.buffer, 1, &indexCopy);
+        vkCmdCopyBuffer(cmd, staging.buffer, newSurface.indexBuffer.buffer, 1, &indexCopy);
     });
 
     destroy_buffer(staging);
@@ -686,74 +787,28 @@ GPUMeshBuffers MercuryEngine::uploadMesh(std::span<uint32_t> indices, std::span<
     return newSurface;
 }
 
-void MercuryEngine::init_mesh_pipeline()
-{
-    VkShaderModule triangleFragShader;
-    if (!vkutil::load_shader_module("../shaders/colored_triangle.frag.spv", _device, &triangleFragShader))
-        fmt::print("Error when building the triangle fragment shader module!\n");
-    else fmt::print("Triangle fragment shader successfully loaded!\n");
-
-    VkShaderModule triangleVertShader;
-    if (!vkutil::load_shader_module("../shaders/colored_triangle_mesh.vert.spv", _device, &triangleVertShader))
-        fmt::print("Error when building the triangle vertex shader module!\n");
-    else fmt::print("Triangle vertex shader successfully loaded!\n");
-
-    VkPushConstantRange bufferRange{};
-    bufferRange.offset = 0;
-    bufferRange.size = sizeof(GPUDrawPushConstants);
-    bufferRange.stageFlags = VK_SHADER_STAGE_VERTEX_BIT;
-
-    VkPipelineLayoutCreateInfo pipeline_layout_info = vkinit::pipeline_layout_create_info();
-    pipeline_layout_info.pPushConstantRanges = &bufferRange;
-    pipeline_layout_info.pushConstantRangeCount = 1;
-
-    VK_CHECK(vkCreatePipelineLayout(_device, &pipeline_layout_info, nullptr, &_meshPipelineLayout));
-
-    PipelineBuilder pipelineBuilder;
-
-    pipelineBuilder._pipelineLayout = _meshPipelineLayout;
-    pipelineBuilder.set_shaders(triangleVertShader, triangleFragShader);
-    pipelineBuilder.set_input_topology(VK_PRIMITIVE_TOPOLOGY_TRIANGLE_LIST);
-    pipelineBuilder.set_polygon_mode(VK_POLYGON_MODE_FILL);
-    pipelineBuilder.set_cull_mode(VK_CULL_MODE_NONE, VK_FRONT_FACE_CLOCKWISE);
-    pipelineBuilder.set_multisampling_none();
-    pipelineBuilder.disable_blending();
-    pipelineBuilder.disable_depthtest();
-
-    pipelineBuilder.set_color_attachment_format(_drawImage.imageFormat);
-    pipelineBuilder.set_depth_format(VK_FORMAT_UNDEFINED);
-
-    _meshPipeline = pipelineBuilder.build_pipeline(_device);
-
-    vkDestroyShaderModule(_device, triangleFragShader, nullptr);
-    vkDestroyShaderModule(_device, triangleVertShader, nullptr);
-
-    _mainDeletionQueue.push_function([&]()
-    {
-        vkDestroyPipelineLayout(_device, _meshPipelineLayout, nullptr);
-        vkDestroyPipeline(_device, _meshPipeline, nullptr);
-    });
-}
-
 void MercuryEngine::init_default_data()
 {
-    std::array<Vertex, 4> rect_vertices;
+    std::vector<Vertex> rect_vertices;
+    rect_vertices.resize(4);
 
-    rect_vertices[0].position = {  0.5f, -0.5f, 0 };
-    rect_vertices[1].position = {  0.5f,  0.5f, 0 };
-    rect_vertices[2].position = { -0.5f, -0.5f, 0 };
-    rect_vertices[3].position = { -0.5f,  0.5f, 0 };
+    rect_vertices[0].position = {  0.5, -0.5, 0 };
+    rect_vertices[1].position = {  0.5,  0.5, 0 };
+    rect_vertices[2].position = { -0.5, -0.5, 0 };
+    rect_vertices[3].position = { -0.5,  0.5, 0 };
 
     rect_vertices[0].color = { 0, 0, 0, 1 };
     rect_vertices[1].color = { 0.5, 0.5, 0.5, 1 };
     rect_vertices[2].color = { 1, 0, 0, 1 };
     rect_vertices[3].color = { 0, 1, 0, 1 };
 
-    std::array<uint32_t, 6> rect_indices;
+    std::vector<uint32_t> rect_indices;
+    rect_indices.resize(6);
 
     rect_indices[0] = 0;
     rect_indices[1] = 1;
     rect_indices[2] = 2;
+
     rect_indices[3] = 2;
     rect_indices[4] = 1;
     rect_indices[5] = 3;
