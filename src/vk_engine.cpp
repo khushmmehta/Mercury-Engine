@@ -84,9 +84,9 @@ void MercuryEngine::init_vulkan()
                 return VK_FALSE;
             })
         .enable_extension(VK_EXT_DEBUG_UTILS_EXTENSION_NAME)
+        .add_validation_feature_enable(VK_VALIDATION_FEATURE_ENABLE_GPU_ASSISTED_EXT)
         .require_api_version(1, 3, 0)
         .build();
-
     vkb::Instance vkb_inst = inst_ret.value();
 
     _instance = vkb_inst.instance;
@@ -780,6 +780,51 @@ GPUMeshBuffers MercuryEngine::uploadMesh(const std::span<uint32_t> indices, cons
         indexCopy.size = indexBufferSize;
 
         vkCmdCopyBuffer(cmd, staging.buffer, newSurface.indexBuffer.buffer, 1, &indexCopy);
+
+        VkBufferMemoryBarrier2 vertexBufferBarrier =
+        {
+            .sType = VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER_2,
+            .pNext = nullptr,
+            .srcStageMask = VK_PIPELINE_STAGE_2_TRANSFER_BIT,
+            .srcAccessMask = VK_ACCESS_2_TRANSFER_WRITE_BIT,
+            .dstStageMask = VK_PIPELINE_STAGE_2_VERTEX_SHADER_BIT,
+            .dstAccessMask = VK_ACCESS_2_SHADER_READ_BIT,
+            .srcQueueFamilyIndex = VK_QUEUE_FAMILY_IGNORED,
+            .dstQueueFamilyIndex = VK_QUEUE_FAMILY_IGNORED,
+            .buffer = newSurface.vertexBuffer.buffer,
+            .offset = 0,
+            .size = VK_WHOLE_SIZE
+        };
+
+        VkBufferMemoryBarrier2 indexBufferBarrier =
+        {
+            .sType = VK_STRUCTURE_TYPE_BUFFER_MEMORY_BARRIER_2,
+            .pNext = nullptr,
+            .srcStageMask = VK_PIPELINE_STAGE_2_TRANSFER_BIT,
+            .srcAccessMask = VK_ACCESS_2_TRANSFER_WRITE_BIT,
+            .dstStageMask = VK_PIPELINE_STAGE_2_VERTEX_INPUT_BIT,
+            .dstAccessMask = VK_ACCESS_2_INDEX_READ_BIT,
+            .srcQueueFamilyIndex = VK_QUEUE_FAMILY_IGNORED,
+            .dstQueueFamilyIndex = VK_QUEUE_FAMILY_IGNORED,
+            .buffer = newSurface.indexBuffer.buffer,
+            .offset = 0,
+            .size = VK_WHOLE_SIZE
+        };
+
+        VkDependencyInfo dependencyInfo =
+        {
+            .sType = VK_STRUCTURE_TYPE_DEPENDENCY_INFO,
+            .pNext = nullptr,
+            .dependencyFlags = 0,
+            .memoryBarrierCount = 0,
+            .pMemoryBarriers = nullptr,
+            .bufferMemoryBarrierCount = 2,
+            .pBufferMemoryBarriers = std::array<VkBufferMemoryBarrier2, 2>{ vertexBufferBarrier, indexBufferBarrier }.data(),
+            .imageMemoryBarrierCount = 0,
+            .pImageMemoryBarriers = nullptr
+        };
+
+        vkCmdPipelineBarrier2(cmd, &dependencyInfo);
     });
 
     destroy_buffer(staging);
@@ -814,6 +859,9 @@ void MercuryEngine::init_default_data()
     rect_indices[5] = 3;
 
     rectangle = uploadMesh(rect_indices, rect_vertices);
+
+    set_object_name(_device, reinterpret_cast<uint64_t>(rectangle.vertexBuffer.buffer), VK_OBJECT_TYPE_BUFFER, "Rectangle Vertex Buffer");
+    set_object_name(_device, reinterpret_cast<uint64_t>(rectangle.indexBuffer.buffer), VK_OBJECT_TYPE_BUFFER, "Rectangle Index Buffer");
 
     _mainDeletionQueue.push_function([&]()
     {

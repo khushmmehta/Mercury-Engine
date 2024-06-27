@@ -1,4 +1,5 @@
 #version 450
+#extension GL_EXT_buffer_reference : require
 
 layout (location = 0) out vec3 outColor;
 layout (location = 1) out vec2 outUV;
@@ -12,7 +13,7 @@ struct Vertex {
     vec4 color;
 };
 
-layout(set = 0, binding = 0) buffer VertexBuffer{
+layout(buffer_reference, std430) readonly buffer VertexBuffer{
     Vertex vertices[];
 };
 
